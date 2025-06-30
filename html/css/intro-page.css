@@ -168,7 +168,7 @@
 .demo__main-title {
   font-size: 70px;
   line-height: 110%;
-  color: #fffe55;
+  color: #97462f;
   margin-bottom: 35px;
 }
 
@@ -332,7 +332,7 @@
 }
 
 .demo__anchor svg {
-  fill: #fffe55;
+  fill: #97462f;
   width: 45px;
   height: 45px;
 }
@@ -736,7 +736,7 @@
   justify-content: center;
   width: 97px;
   height: 97px;
-  background-color: #fffe55;
+  background-color: #97462f;
   border-radius: 50%;
   position: absolute;
   top: 50%;
@@ -768,10 +768,10 @@
 
 @media (min-width: 992px) {
   .demo-card__link:hover, .demo-card__link:focus {
-    color: #fffe55;
+    color: #97462f;
   }
   .demo-card__link:hover svg, .demo-card__link:focus svg {
-    fill: #fffe55;
+    fill: #97462f;
   }
 }
 
@@ -784,7 +784,7 @@
   padding-top: 90.5%;
   font-size: 50px;
   line-height: 95%;
-  background-color: #fffe55;
+  background-color: #97462f;
   cursor: default;
   position: relative;
 }
