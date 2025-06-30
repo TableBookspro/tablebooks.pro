@@ -1,0 +1,24 @@
+# Site settings
+title: TableBooks Pro
+description: A professional website for TableBooks
+baseurl: "/tablebooks.pro"  # Matches your repo name
+url: "https://tablebookspro.github.io"  # Your GitHub Pages URL
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude unnecessary files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Social Links
+social_links:
+  twitter: https://twitter.com/yourprofile
+  facebook: https://facebook.com/yourprofile
+  instagram: https://instagram.com/yourprofile
