@@ -1,47 +1,21 @@
-- title: Home
-  url: /
-- title: Pages
-  url: /pages/
-  submenu:
-    - title: About us
-      url: /pages/about-us/
-    - title: Services
-      url: /pages/services/
-    - title: Service detail
-      url: /pages/service-detail/
-    - title: Team
-      url: /pages/team/
-    - title: Faq
-      url: /pages/faq/
-    - title: Pricing
-      url: /pages/pricing/
-    - title: Contact
-      url: /pages/contact/
-    - title: 404
-      url: /pages/404/
-    - title: Coming soon
-      url: /pages/coming-soon/
-- title: Projects
-  url: /projects/
-  submenu:
-    - title: Masonry
-      url: /projects/masonry/
-    - title: Carousel
-      url: /projects/carousel/
-    - title: Tooltips
-      url: /projects/tooltips/
-    - title: Single project
-      url: /projects/single-project/
-- title: Blog
-  url: /blog/
-  submenu:
-    - title: Masonry
-      url: /blog/masonry/
-    - title: Grid
-      url: /blog/grid/
-    - title: Listing
-      url: /blog/listing/
-    - title: Single post
-      url: /blog/single-post/
-- title: Contact
-  url: /contact/
+items:
+  - name: Home
+    url: "/home"
+    title: "Home Page"
+    subitems:
+      - name: Dashboard
+        url: "/home/dashboard"
+        title: "User Dashboard"
+      - name: Settings
+        url: "/home/settings"
+        title: "Account Settings"
+  - name: Contact
+    url: "/contact"
+    title: "Contact Us"
+    subitems:
+      - name: Support
+        url: "/contact/support"
+        title: "Customer Support"
+      - name: Feedback
+        url: "/contact/feedback"
+        title: "Submit Feedback"
