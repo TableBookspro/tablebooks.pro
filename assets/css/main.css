@@ -10468,7 +10468,7 @@ a:hover, a:focus {
   height: 257px;
   padding: 48px 48px 48px 36px;
   vertical-align: top;
-  background-color: #000000;
+  /*background-color: #000000;*/
   -ms-grid-column-align: start;
       justify-self: start;
 }
