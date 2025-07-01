@@ -16,6 +16,13 @@
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/swiper-bundle.css' | relative_url }}">
   <link rel="shortcut icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
+  <svg style="display:none;">
+    <defs>
+      {% for symbol in site.data.symbols %}
+        {{ symbol.content | safe }}
+      {% endfor %}
+    </defs>
+  </svg>
 </head>
 <body>
   {% include header.html %}

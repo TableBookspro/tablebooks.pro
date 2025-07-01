@@ -2,41 +2,16 @@
 layout: default
 title: American Coffee Table Book
 ---
-<div class="main-content">
-  <section class="hero">
-    <h1>
-      AMERICAN<br>COFFEE<br>TABLE<br>BOOK
-    </h1>
-    <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Logo">
-    <p>“Where liberty dwells, there is my country.” Thought provoking words from Benjamin Franklin. American Coffee Table Book is a salute to America on her 250th anniversary. 500+ pages covering 101 years of America from 1722 - 1823.</p>
-  </section>
-
-  <section class="details">
-    <h2>Details</h2>
-    <ul>
-      <li>01. Dimensions: 8.25" x 10.75" x 1.18</li>
-      <li>02. Weight: 3.254 lbs</li>
-      <li>03. Page Count: 552 Pages</li>
-      <li>04. List Price: $50.00</li>
-    </ul>
-  </section>
-
-  <section class="purchase">
-    <p>American Coffee Table Book is available through a number of retailers. Please try to buy from Barnes And Noble if possible, it helps us to ensure proper bestseller list placement during this period.</p>
-    <h3>Where To Buy</h3>
-    <ul>
-      <li><a href="#">Barnes & Noble</a></li>
-      <li><a href="#">Amazon</a></li>
-      <li><a href="#">Wal-Mart</a></li>
-      <li><a href="#">Direct</a></li>
-    </ul>
-  </section>
-
-  <section class="additional">
-    <p>Alienum phaedrum torquatos nec eu, detr periculis ex, nihil expetendis in mei. Mei an pericula euripidis hinc partem ei est.</p>
-  </section>
-
-  <div class="next">
-    <a href="#">Next</a>
-  </div>
+<div class="symbol-test">
+  <h1>SVG Symbol Test</h1>
+  <ul>
+    {% for symbol in site.data.symbols %}
+      <li>
+        <svg class="symbol" width="50" height="50">
+          <use xlink:href="#{{ symbol.id }}"></use>
+        </svg>
+        <span>{{ symbol.id }}</span>
+      </li>
+    {% endfor %}
+  </ul>
 </div>
