@@ -1,7 +1,7 @@
 title: American Coffee Table Book
 description: "A salute to America on her 250th anniversary. 500+ pages covering 101 years of America from 1722 - 1823."
-baseurl: ""
-url: "https://tablebooks.pro"
+baseurl: "/tablebooks.pro"
+url: "https://tablebookspro.github.io"
 markdown: kramdown
 theme: minima
 plugins:
