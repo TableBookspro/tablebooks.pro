@@ -2,7 +2,7 @@
   <ul class="navigation__list">
     {% for item in site.data.menu.items %}
     <li class="navigation__item">
-      <a class="navigation__link animsition-link" href="{{ item.url }}" title="{{ item.title }}">{{ item.name }}<span class="navigation__link-icon">
+      <a class="navigation__link animsition-link" href="{{ item.url | relative_url }}" title="{{ item.title }}">{{ item.name }}<span class="navigation__link-icon">
           <svg width="12" height="13">
             <use xlink:href="#link-arrow"></use>
           </svg>
@@ -13,7 +13,7 @@
         <ul class="navigation__dropdown-list">
           {% for subitem in item.subitems %}
           <li class="navigation__dropdown-item">
-            <a class="animsition-link" href="{{ subitem.url }}" title="{{ subitem.title }}">{{ subitem.name }}<span class="navigation__dropdown-icon">
+            <a class="animsition-link" href="{{ subitem.url | relative_url }}" title="{{ subitem.title }}">{{ subitem.name }}<span class="navigation__dropdown-icon">
                 <svg width="12" height="13">
                   <use xlink:href="#link-arrow"></use>
                 </svg>
