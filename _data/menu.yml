@@ -2,20 +2,19 @@ items:
   - name: Home
     url: "/home"
     title: "Home Page"
+  - name: Books
+    url: "/product"
+    title: "Products"
     subitems:
-      - name: Dashboard
-        url: "/home/dashboard"
-        title: "User Dashboard"
-      - name: Settings
-        url: "/home/settings"
-        title: "Account Settings"
+      - name: American
+        url: "/product/american"
+        title: "American Coffee Table Book"
+      - name: Bitcoin
+        url: "/product/bitcoin"
+        title: "Bitcoin Coffee Table Book"
+  - name: About
+    url: "/about"
+    title: "About Us"
   - name: Contact
     url: "/contact"
     title: "Contact Us"
-    subitems:
-      - name: Support
-        url: "/contact/support"
-        title: "Customer Support"
-      - name: Feedback
-        url: "/contact/feedback"
-        title: "Submit Feedback"
