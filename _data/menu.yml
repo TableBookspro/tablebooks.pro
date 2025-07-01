@@ -3,11 +3,11 @@ items:
     url: "/"
     title: "Home Page"
   - name: Books
-    url: "/products"
+    url: "/books"
     title: "Products"
     subitems:
       - name: American Coffee Table Book
-        url: "/products/american"
+        url: "/books/american"
         title: "American Coffee Table Book"
       - name: Bitcoin Coffee Table Book
         url: "https://bitcoincoffeetablebook.com/"
