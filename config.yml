@@ -1,5 +1,5 @@
-title: American Coffee Table Book
-description: "A salute to America on her 250th anniversary. 500+ pages covering 101 years of America from 1722 - 1823."
+title: TABLE books pro
+description: "Independent publisher of unique table books, chapbooks, and more."
 baseurl: "/tablebooks.pro"
 url: "https://tablebookspro.github.io"
 markdown: kramdown
@@ -7,4 +7,12 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+
 permalink: pretty
+
+lang: "en-US"
+timezone: "America/New_York"
+date_format: "%b %-d, %Y"
+
+email: "tablebookspro@protonmail.com"
