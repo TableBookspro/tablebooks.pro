@@ -1,20 +1,23 @@
 <header>
-  <img src="{{ site.logo | relative_url }}" alt="Logo">
   <nav>
-    <ul>
+    <div class="menu-toggle">Menu toggle</div>
+    <div class="logo">
+      <a href="{{ '/' | relative_url }}">
+        AMERICAN COFFEE TABLE BOOK
+      </a>
+    </div>
+    <ul class="nav-menu">
       {% for item in site.data.menu %}
-        {% if item.submenus %}
-          <li>
-            <a href="#">{{ item.name }}</a>
-            <ul>
-              {% for subitem in item.submenus %}
-                <li><a href="{{ subitem.link | relative_url }}">{{ subitem.name }}</a></li>
+        <li>
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% if item.submenu %}
+            <ul class="submenu">
+              {% for subitem in item.submenu %}
+                <li><a href="{{ subitem.url | relative_url }}">{{ subitem.title }}</a></li>
               {% endfor %}
             </ul>
-          </li>
-        {% else %}
-          <li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>
-        {% endif %}
+          {% endif %}
+        </li>
       {% endfor %}
     </ul>
   </nav>

@@ -1,22 +1,9 @@
-# Site settings
-title: TableBooks Pro
-description: A professional website for TableBooks
-url: "https://tablebookspro.github.io"
-baseurl: "/tablebooks.pro"
-logo: "/assets/images/logo.svg"
-social:
-  twitter: "https://twitter.com/tablebooks"
-  facebook: "https://facebook.com/tablebooks"
-email: "contact@tablebooks.pro"
-phone: "+1-555-123-4567"
-
-# Build settings
+title: American Coffee Table Book
+description: "A salute to America on her 250th anniversary. 500+ pages covering 101 years of America from 1722 - 1823."
+baseurl: ""
+url: "https://tablebooks.pro"
 markdown: kramdown
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-# Exclude unnecessary files
-exclude:
-  - Gemfile
-  - Gemfile.lock

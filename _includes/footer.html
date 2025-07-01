@@ -1,8 +1,36 @@
 <footer>
-  <p>© {{ site.time | date: '%Y' }} {{ site.title }}</p>
-  <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a> | Phone: {{ site.phone }}</p>
-  <ul>
-    {% if site.social.twitter %}<li><a href="{{ site.social.twitter }}">Twitter</a></li>{% endif %}
-    {% if site.social.facebook %}<li><a href="{{ site.social.facebook }}">Facebook</a></li>{% endif %}
-  </ul>
+  <div class="footer-content">
+    <div class="contact">
+      <p>+3(425) 521 60 21</p>
+    </div>
+    <div class="quick-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/pages/' | relative_url }}">Pages</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        <li><a href="{{ '/portfolio/' | relative_url }}">Portfolio</a></li>
+      </ul>
+    </div>
+    <div class="follow">
+      <h4>Follow</h4>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+    </div>
+    <div class="newsletter">
+      <h4>Sign up to our newsletter</h4>
+      <form>
+        <input type="email" placeholder="E-mail" required>
+        <button type="submit">Subscribe</button>
+      </form>
+      <p>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+    </div>
+    <p>&copy; Centrix 2021. All Rights Reserved</p>
+    <p><a href="#">Privacy Policy</a></p>
+  </div>
 </footer>
