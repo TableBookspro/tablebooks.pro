@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+- name: Products
+  submenus:
+    - name: American
+      link: /product/american.html
+- name: Blog
+  link: /blog/
+- name: About
+  link: /about/
+- name: Contact
+  link: /contact/
