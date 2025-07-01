@@ -1,0 +1,13 @@
+items:
+  - name: LinkedIn
+    url: "https://www.linkedin.com/company/example"
+    icon: linkedin
+  - name: Facebook
+    url: "https://www.facebook.com/example"
+    icon: facebook
+  - name: Instagram
+    url: "https://www.instagram.com/example"
+    icon: instagram
+  - name: Twitter
+    url: "https://www.twitter.com/example"
+    icon: twitter
