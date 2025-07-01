@@ -3,139 +3,287 @@ layout: default
 title: American Coffee Table Book
 ---
 
-    <main>
-      <article class="single-project">
-        <div class="single-project__container container container--size-large">
-          <div class="single-project__hero row">
-            <div class="single-project__hero-image col-12 col-md-6 col-lg-7 col-xxl-6">
-              <img src="{{ '/assets/img/picture/single-project/5.jpg' | relative_url }}" width="785" height="747" alt="project photo">
-            </div>
-            <div class="single-project__hero-main col-12 col-md-6 col-lg-5 col-xxl-6 order-md-first">
-              <h1 class="single-project__title" style="line-height: 1.2; display: block;">
-                <span style="display: inline-block; width: 50%;">AMERICAN</span>
-                <span style="display: inline-block; width: 50%;">COFFEE</span>
-                <span style="display: inline-block; width: 50%;">TABLE</span>
-                <span style="display: inline-block; width: 50%;">BOOK</span>
-              </h1>
-              <div class="single-project__icon">
-                <svg width="75" height="75">
-                  <use xlink:href="#link-arrow"></use>
-                </svg>
-              </div>
-              <div class="single-project__hero-text">
-                “Where liberty dwells, there is my country.” Thought provoking words from Benjamin Franklin. American Coffee Table Book is a salute to America on her 250th anniversary. 500+ pages covering 101 years of America from 1722 - 1823.
+        <main>
+          <section class="creative-hero">
+            <div class="creative-hero__container">
+              <!--<div class="creative-hero__main">
+                <h1 class="creative-hero__title">Undertake projects of&nbsp;any complexity</h1>
+                <a class="creative-hero__btn btn" href="#">
+                  <span class="btn__text">Join now</span>
+                  <span class="btn__icon">
+                    <svg width="19" height="19">
+                      <use xlink:href="#link-arrow"></use>
+                    </svg>
+                  </span>
+                </a>
+              </div>-->
+              <div class="creative-hero__image">
+                <img src="{{ '/assets/img/picture/creative/hero.jpg' | relative_url }}" width="1100" height="980" alt="">
               </div>
             </div>
-          </div>
-          <section class="meta">
-            <div class="row">
-              <div class="col-12 col-lg-4" data-aos="fade-up">
-                <div class="meta__image">
-                  <img src="{{ '/assets/img/picture/single-project/1.jpg' | relative_url }}" alt="">
+          </section>
+          <section class="portfolio-section portfolio-section--no-padding">
+            <header class="portfolio-section__header row align-items-end">
+              <div class="col-8 col-xl-6 offset-xl-2">
+                <h2 class="portfolio-section__title">Latest works</h2>
+              </div>
+              <div class="col-4 text-right">
+                <a class="portfolio-section__more arrow-link" href="projects-masonry.html">
+                  <span class="arrow-link__text">View all</span>
+                  <span class="arrow-link__icon">
+                    <svg width="75" height="75">
+                      <use xlink:href="#link-arrow"></use>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </header>
+            <ul class="portfolio-section__grid __js_portfolio-section-masonry">
+              <li class="portfolio-section__item __js_masonry-item">
+                <a class="project-preview project-preview--elastic project-preview--vertical" href="single-project.html">
+                  <span class="project-preview__image">
+                    <img src="{{ '/assets/img/picture/common/portfolio-section/1-mobile.jpg' | relative_url }}" alt="Realistic building">
+                  </span>
+                  <span class="project-preview__bottom">
+                    <span class="project-preview__title">Realistic building</span>
+                    <span class="project-preview__icon">
+                      <svg width="24" height="23">
+                        <use xlink:href="#link-arrow2"></use>
+                      </svg>
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <li class="portfolio-section__item __js_masonry-item">
+                <a class="project-preview project-preview--elastic project-preview" href="single-project.html">
+                  <span class="project-preview__image">
+                    <img src="{{ '/assets/img/picture/common/portfolio-section/2.jpg' | relative_url }}" width="531" height="417" alt="Banana">
+                  </span>
+                  <span class="project-preview__bottom">
+                    <span class="project-preview__title">Banana</span>
+                    <span class="project-preview__icon">
+                      <svg width="24" height="23">
+                        <use xlink:href="#link-arrow2"></use>
+                      </svg>
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <li class="portfolio-section__item __js_masonry-item">
+                <a class="project-preview project-preview--elastic project-preview" href="single-project.html">
+                  <span class="project-preview__image">
+                    <img src="{{ '/assets/img/picture/common/portfolio-section/3.jpg' | relative_url }}" width="531" height="417" alt="Abstract lists">
+                  </span>
+                  <span class="project-preview__bottom">
+                    <span class="project-preview__title">Abstract lists</span>
+                    <span class="project-preview__icon">
+                      <svg width="24" height="23">
+                        <use xlink:href="#link-arrow2"></use>
+                      </svg>
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <li class="portfolio-section__item __js_masonry-item  portfolio-section__item--two-thirds">
+                <a class="project-preview project-preview--elastic project-preview" href="single-project.html">
+                  <span class="project-preview__image">
+                    <img src="{{ '/assets/img/picture/common/portfolio-section/4.jpg' | relative_url }}" alt="Green onion">
+                  </span>
+                  <span class="project-preview__bottom">
+                    <span class="project-preview__title">Green onion</span>
+                    <span class="project-preview__icon">
+                      <svg width="24" height="23">
+                        <use xlink:href="#link-arrow2"></use>
+                      </svg>
+                    </span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section class="services-section">
+            <div class="services-section__container services-section__container--small">
+              <h2 class="services-section__title" data-aos="fade-up">Services</h2>
+              <div class="services-section__main">
+                <div class="services-section__image" data-aos="fade-up">
+                  <img src="{{ '/assets/img/picture/creative/services.jpg' | relative_url }}" width="823" height="417" alt="">
                 </div>
-              </div>
-              <div class="col-12 col-lg-8">
-                <div class="meta__info">
-                  <div class="meta__info-item" data-aos="fade-up">
-                    <span>
-                      <span class="num">01.</span> Dimensions
-                    </span>
-                    <span>8.25" x 10.75" x 1.20"</span>
-                  </div>
-                  <div class="meta__info-item" data-aos="fade-up">
-                    <span>
-                      <span class="num">02.</span> Weight
-                    </span>
-                    <span>3.25 lbs</span>
-                  </div>
-                  <div class="meta__info-item" data-aos="fade-up">
-                    <span>
-                      <span class="num">03.</span> Page Count
-                    </span>
-                    <span>552 Pages</span>
-                  </div>
-                  <div class="meta__info-item" data-aos="fade-up">
-                    <span>
-                      <span class="num">04.</span> List Price
-                    </span>
-                    <span>$ 50.00</span>
-                  </div>
+                <div class="services-section__menu">
+                  <ul class="services-section__list">
+                    <li class="services-section__item" data-aos="fade-up">
+                      <a class="services-section__link" href="service-detail.html">Web development<span>
+                          <svg width="24" height="23">
+                            <use xlink:href="#link-arrow2"></use>
+                          </svg>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="services-section__item" data-aos="fade-up">
+                      <a class="services-section__link" href="service-detail.html">Marketing<span>
+                          <svg width="24" height="23">
+                            <use xlink:href="#link-arrow2"></use>
+                          </svg>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="services-section__item" data-aos="fade-up">
+                      <a class="services-section__link" href="service-detail.html">Graphic design<span>
+                          <svg width="24" height="23">
+                            <use xlink:href="#link-arrow2"></use>
+                          </svg>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="services-section__item" data-aos="fade-up">
+                      <a class="services-section__link" href="service-detail.html">Photography<span>
+                          <svg width="24" height="23">
+                            <use xlink:href="#link-arrow2"></use>
+                          </svg>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="services-section__item" data-aos="fade-up">
+                      <a class="services-section__link" href="service-detail.html">Illustrations<span>
+                          <svg width="24" height="23">
+                            <use xlink:href="#link-arrow2"></use>
+                          </svg>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="services-section__item" data-aos="fade-up">
+                      <a class="services-section__link" href="service-detail.html">Product design<span>
+                          <svg width="24" height="23">
+                            <use xlink:href="#link-arrow2"></use>
+                          </svg>
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </section>
-          <section class="services-section single-project__services">
-            <div class="row services-section__main">
-              <div class="col-12 col-xxl-3" data-aos="fade-up">
-                <div class="services-section__text">
-                  American Coffee Table Book is available through a number of retailers. Please try to buy from Barnes And Noble if possible, it helps us to ensure proper bestseller list placement during this period.</div>
-              </div>
-              <div class="col-12 col-xxl-9 services-section__right">
-                <h2 class="services-section__title" data-aos="fade-up">Where To Buy</h2>
-                <div class="services-section__image">
-                  <div class="services-section__menu">
-                    <ul class="services-section__list">
-                      <li class="services-section__item" data-aos="fade-up">
-                        <a class="services-section__link" href="service-detail.html">Barnes & Noble<span>
-                            <svg width="24" height="23">
-                              <use xlink:href="#link-arrow2"></use>
-                            </svg>
-                          </span>
-                        </a>
-                      </li>
-                      <li class="services-section__item" data-aos="fade-up">
-                        <a class="services-section__link" href="service-detail.html">Amazon<span>
-                            <svg width="24" height="23">
-                              <use xlink:href="#link-arrow2"></use>
-                            </svg>
-                          </span>
-                        </a>
-                      </li>
-                      <li class="services-section__item" data-aos="fade-up">
-                        <a class="services-section__link" href="service-detail.html">Wal-Mart<span>
-                            <svg width="24" height="23">
-                              <use xlink:href="#link-arrow2"></use>
-                            </svg>
-                          </span>
-                        </a>
-                      </li>
-                      <li class="services-section__item" data-aos="fade-up">
-                        <a class="services-section__link" href="service-detail.html">Direct<span>
-                            <svg width="24" height="23">
-                              <use xlink:href="#link-arrow2"></use>
-                            </svg>
-                          </span>
-                        </a>
-                      </li>
+          <section class="plans-section">
+            <div class="plans-section__container">
+              <div class="row">
+                <div class="plans-section__item card-price col-12 col-lg-6 col-xl-4" data-aos="fade-up">
+                  <div class="card-price__wrapper">
+                    <div class="card-price__plan" data-aos="fade-up">Basic</div>
+                    <div class="card-price__price" data-aos="fade-up">
+                      <sup>$</sup> 29 <span>/ mo</span>
+                    </div>
+                    <ul class="card-price__list">
+                      <li class="yellow" data-aos="fade-up">Gathered day, years she'd upon, greater.</li>
+                      <li data-aos="fade-up">Kind cattle won't bearing.</li>
+                      <li data-aos="fade-up">own night two above.</li>
                     </ul>
+                    <a class="card-price__btn btn" href="#" data-aos="fade-up">
+                      <span class="btn__text">join now</span>
+                      <span class="btn__icon">
+                        <svg width="19" height="19">
+                          <use xlink:href="#link-arrow"></use>
+                        </svg>
+                      </span>
+                    </a>
                   </div>
-                  <img src="{{ '/assets/img/picture/single-project/2.jpg' | relative_url }}" width="459" height="642" alt="">
+                </div>
+                <div class="plans-section__item card-price card-price--gradient col-12 col-lg-6 col-xl-4" data-aos="fade-up">
+                  <div class="card-price__wrapper">
+                    <div class="card-price__plan" data-aos="fade-up">Standard</div>
+                    <div class="card-price__price" data-aos="fade-up">
+                      <sup>$</sup> 39 <span>/ mo</span>
+                    </div>
+                    <ul class="card-price__list">
+                      <li class="yellow" data-aos="fade-up">Gathered day, years she'd upon, greater.</li>
+                      <li class="yellow" data-aos="fade-up">Kind cattle won't bearing.</li>
+                      <li data-aos="fade-up">own night two above.</li>
+                    </ul>
+                    <a class="btn--outline card-price__btn card-price__btn--outline btn" href="#" data-aos="fade-up">
+                      <span class="btn__text">join now</span>
+                      <span class="btn__icon">
+                        <svg width="19" height="19">
+                          <use xlink:href="#link-arrow"></use>
+                        </svg>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="plans-section__item card-price col-12 col-lg-6 col-xl-4" data-aos="fade-up">
+                  <div class="card-price__wrapper">
+                    <div class="card-price__plan" data-aos="fade-up">Advanced</div>
+                    <div class="card-price__price" data-aos="fade-up">
+                      <sup>$</sup> 49 <span>/ mo</span>
+                    </div>
+                    <ul class="card-price__list">
+                      <li class="yellow" data-aos="fade-up">Gathered day, years she'd upon, greater.</li>
+                      <li class="yellow" data-aos="fade-up">Kind cattle won't bearing.</li>
+                      <li class="yellow" data-aos="fade-up">own night two above.</li>
+                    </ul>
+                    <a class="card-price__btn btn" href="#" data-aos="fade-up">
+                      <span class="btn__text">join now</span>
+                      <span class="btn__icon">
+                        <svg width="19" height="19">
+                          <use xlink:href="#link-arrow"></use>
+                        </svg>
+                      </span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </section>
-          <section class="project-other">
-            <div class="row">
-              <div class="col-12 col-md-6">
-                <div class="project-other__image" data-aos="fade-up">
-                  <img src="{{ '/assets/img/picture/single-project/3.jpg' | relative_url }}" alt="">
-                </div>
-              </div>
-              <div class="col-12 col-md-6">
-                <div class="project-other__image project-other__image--small" data-aos="fade-up">
-                  <img src="{{ '/assets/img/picture/single-project/4.jpg' | relative_url }}" alt="">
-                  <div class="project-other__text" data-aos="fade-up">Alienum phaedrum torquatos nec eu, detr periculis ex, nihil expetendis in mei. Mei an pericula euripidis hinc partem ei est.</div>
+          <section class="start-project">
+            <div class="start-project__container start-project__container--small">
+              <h2 class="start-project__title start-project__title--size-small" data-aos="fade-up">Start A Project?</h2>
+              <div class="start-project__grid">
+                <div class="start-project__discuss discuss-project discuss-project--no-padding">
+                  <div class="discuss-project__wrapper" data-aos="fade-up">
+                    <form action="#" method="post">
+                      <div class="row justify-content-between gx-0">
+                        <div class="discuss-project__field-wrapper col-12 col-md-6" data-aos="fade-up">
+                          <label class="discuss-project__field field">
+                            <input type="text" name="name">
+                            <span class="field__hint">Name</span>
+                          </label>
+                        </div>
+                        <div class="discuss-project__field-wrapper col-12 col-md-6" data-aos="fade-up">
+                          <label class="discuss-project__field field">
+                            <input type="email" name="email">
+                            <span class="field__hint">Email</span>
+                          </label>
+                        </div>
+                        <div class="col-12" data-aos="fade-up">
+                          <label class="discuss-project__field discuss-project__field--textarea field">
+                            <textarea name="message" required></textarea>
+                            <span class="field__hint">Message</span>
+                          </label>
+                        </div>
+                        <div class="discuss-project__bottom col-12">
+                          <div class="discuss-project__file file-upload" data-aos="fade-up">
+                            <label class="file-upload__label">
+                              <input class="visually-hidden" type="file">
+                              <span class="file-upload__icon">
+                                <svg width="16" height="16">
+                                  <use xlink:href="#paper-clip"></use>
+                                </svg>
+                              </span>
+                              <span class="file-upload__text">Attach a file</span>
+                            </label>
+                          </div>
+                          <button class="discuss-project__send btn--theme-black btn" type="submit" data-aos="fade-up">
+                            <span class="btn__text">Submit</span>
+                            <span class="btn__icon">
+                              <svg width="19" height="19">
+                                <use xlink:href="#link-arrow"></use>
+                              </svg>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
             </div>
           </section>
-          <div class="single-project__next" data-aos="fade-up">
-            <a href="#" target="_blank">Buy Now
-              <svg width="104" height="86">
-                <use xlink:href="#arrow-right"></use>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </article>
-    </main>
+        </main>
