@@ -5,7 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }}</title>
   {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/animistion.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/aos.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/bootstrap-grid.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/fullpage.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/intro-page.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/jquery.fancybox.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/jquery.pagepiling.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/jquery.pagepiling.min.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/swiper-bundle.css' | relative_url }}">
+  <link rel="shortcut icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
 </head>
 <body>
   {% include header.html %}
@@ -13,6 +23,11 @@
     {{ content }}
   </main>
   {% include footer.html %}
-  <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/libs/jquery-3.6.0.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/libs/jquery.fancybox.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/libs/jquery.fullpage.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/libs/jquery.pagepiling.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/libs/swiper-bundle.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
 </html>

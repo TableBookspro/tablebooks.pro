@@ -1,28 +1,67 @@
 <header>
+  <div class="social-icons">
+    <a href="#"><img src="{{ '/assets/images/linkedin.png' | relative_url }}" alt="linkedin"></a>
+    <a href="#"><img src="{{ '/assets/images/facebook.png' | relative_url }}" alt="facebook"></a>
+    <a href="#"><img src="{{ '/assets/images/instagram.png' | relative_url }}" alt="instagram"></a>
+    <a href="#"><img src="{{ '/assets/images/twitter.png' | relative_url }}" alt="twitter"></a>
+  </div>
   <nav>
-    <ul>
-      <li><a href="{{ '/' | relative_url }}">Home</a></li>
-      <li><a href="{{ '/about' | relative_url }}">About</a></li>
-      <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
-      <!-- Add more links based on your chosen pages -->
+    <div class="menu-toggle">Menu toggle</div>
+    <div class="logo">
+      <a href="{{ '/' | relative_url }}">
+        AMERICAN<br>COFFEE<br>TABLE<br>BOOK
+      </a>
+      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Logo">
+    </div>
+    <ul class="nav-menu">
+      <li>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <ul class="submenu">
+          <li><a href="{{ '/agency-default/' | relative_url }}">Agency default</a></li>
+          <li><a href="{{ '/agency-mono/' | relative_url }}">Agency mono</a></li>
+          <li><a href="{{ '/agency-modern/' | relative_url }}">Agency modern</a></li>
+          <li><a href="{{ '/creative-agency/' | relative_url }}">Creative agency</a></li>
+          <li><a href="{{ '/vcard/' | relative_url }}">Vcard</a></li>
+          <li><a href="{{ '/vertical-projects/' | relative_url }}">Vertical projects</a></li>
+          <li><a href="{{ '/tooltip-projects/' | relative_url }}">Tooltip projects</a></li>
+          <li><a href="{{ '/parallax-projects/' | relative_url }}">Parallax projects</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="{{ '/pages/' | relative_url }}">Pages</a>
+        <ul class="submenu">
+          <li><a href="{{ '/pages/about-us/' | relative_url }}">About us</a></li>
+          <li><a href="{{ '/pages/services/' | relative_url }}">Services</a></li>
+          <li><a href="{{ '/pages/service-detail/' | relative_url }}">Service detail</a></li>
+          <li><a href="{{ '/pages/team/' | relative_url }}">Team</a></li>
+          <li><a href="{{ '/pages/faq/' | relative_url }}">Faq</a></li>
+          <li><a href="{{ '/pages/pricing/' | relative_url }}">Pricing</a></li>
+          <li><a href="{{ '/pages/contact/' | relative_url }}">Contact</a></li>
+          <li><a href="{{ '/pages/404/' | relative_url }}">404</a></li>
+          <li><a href="{{ '/pages/coming-soon/' | relative_url }}">Coming soon</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="{{ '/projects/' | relative_url }}">Projects</a>
+        <ul class="submenu">
+          <li><a href="{{ '/projects/masonry/' | relative_url }}">Masonry</a></li>
+          <li><a href="{{ '/projects/carousel/' | relative_url }}">Carousel</a></li>
+          <li><a href="{{ '/projects/tooltips/' | relative_url }}">Tooltips</a></li>
+          <li><a href="{{ '/projects/single-project/' | relative_url }}">Single project</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="{{ '/blog/' | relative_url }}">Blog</a>
+        <ul class="submenu">
+          <li><a href="{{ '/blog/masonry/' | relative_url }}">Masonry</a></li>
+          <li><a href="{{ '/blog/grid/' | relative_url }}">Grid</a></li>
+          <li><a href="{{ '/blog/listing/' | relative_url }}">Listing</a></li>
+          <li><a href="{{ '/blog/single-post/' | relative_url }}">Single post</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="{{ '/contact/' | relative_url }}">Contact</a>
+      </li>
     </ul>
   </nav>
 </header>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title | default: site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
-</head>
-<body>
-  {% include header.html %}
-  <main>
-    {{ content }}
-  </main>
-  {% include footer.html %}
-  <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
-</body>
-</html>
