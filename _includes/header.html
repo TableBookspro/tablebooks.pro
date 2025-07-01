@@ -1,24 +1,18 @@
 <header>
-  <nav>
+  <div class="social-icons">
+    <a href="#"><svg class="symbol" width="24" height="24"><use xlink:href="#linkedin"></use></svg></a>
+    <a href="#"><svg class="symbol" width="24" height="24"><use xlink:href="#facebook"></use></svg></a>
+    <a href="#"><svg class="symbol" width="24" height="24"><use xlink:href="#instagram"></use></svg></a>
+    <a href="#"><svg class="symbol" width="24" height="24"><use xlink:href="#twitter"></use></svg></a>
+  </div>
+  <nav class="main-nav">
     <div class="menu-toggle">Menu toggle</div>
     <div class="logo">
-      <a href="{{ '/' | relative_url }}">
-        AMERICAN COFFEE TABLE BOOK
+      <a href="{{ '/' | relative_url }}" class="logo-text">
+        AMERICAN<br>COFFEE<br>TABLE<br>BOOK
       </a>
+      <svg class="symbol" width="50" height="50"><use xlink:href="#logo"></use></svg>
     </div>
-    <ul class="nav-menu">
-      {% for item in site.data.menu %}
-        <li>
-          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-          {% if item.submenu %}
-            <ul class="submenu">
-              {% for subitem in item.submenu %}
-                <li><a href="{{ subitem.url | relative_url }}">{{ subitem.title }}</a></li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
+    {% include menu.html %}
   </nav>
 </header>
