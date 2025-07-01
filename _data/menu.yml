@@ -1,16 +1,16 @@
 items:
   - name: Home
-    url: "/home"
+    url: "/"
     title: "Home Page"
   - name: Books
-    url: "/product"
+    url: "/products"
     title: "Products"
     subitems:
       - name: American Coffee Table Book
-        url: "/product/american"
+        url: "/products/american"
         title: "American Coffee Table Book"
       - name: Bitcoin Coffee Table Book
-        url: "/product/bitcoin"
+        url: "https://bitcoincoffeetablebook.com/"
         title: "Bitcoin Coffee Table Book"
   - name: About
     url: "/about"
