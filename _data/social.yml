@@ -3,11 +3,11 @@ items:
     url: "https://www.linkedin.com/company/example"
     icon: linkedin
   - name: Facebook
-    url: "https://www.facebook.com/example"
+    url: "https://www.facebook.com/tablebookspro/"
     icon: facebook
   - name: Instagram
-    url: "https://www.instagram.com/example"
+    url: "https://www.instagram.com/tablebookspro/"
     icon: instagram
   - name: Twitter
-    url: "https://www.twitter.com/example"
+    url: "https://x.com/TableBookspro"
     icon: twitter
