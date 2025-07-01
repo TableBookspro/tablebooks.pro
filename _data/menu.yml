@@ -6,10 +6,10 @@ items:
     url: "/product"
     title: "Products"
     subitems:
-      - name: American
+      - name: American Coffee Table Book
         url: "/product/american"
         title: "American Coffee Table Book"
-      - name: Bitcoin
+      - name: Bitcoin Coffee Table Book
         url: "/product/bitcoin"
         title: "Bitcoin Coffee Table Book"
   - name: About
