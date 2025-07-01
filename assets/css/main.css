@@ -9941,7 +9941,7 @@ a:hover, a:focus {
     left: 0;
     margin-right: 0;
     margin-left: 0;
-     -webkit-transform: rotate(-90deg) translateX(-100%) translateY(50%);
+    -webkit-transform: rotate(-90deg) translateX(-100%) translateY(50%);
             transform: rotate(-90deg) translateX(-100%) translateY(50%);
     -webkit-transform-origin: 0 0;
             transform-origin: 0 0;
@@ -10100,7 +10100,7 @@ a:hover, a:focus {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #ffffff;
+  background-color: #000000;
   border-top: none;
   border-bottom: none;
   -webkit-transition: -webkit-transform 0.5s ease;
