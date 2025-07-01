@@ -21,20 +21,13 @@
 </div>
           <div class="footer__menu">
             <div class="footer__title">Follow</div>
-            <ul class="footer__menu-list">
-              <li class="footer__menu-item">
-                <a class="footer__menu-link" href="#">Facebook</a>
-              </li>
-              <li class="footer__menu-item">
-                <a class="footer__menu-link" href="#">Twitter</a>
-              </li>
-              <li class="footer__menu-item">
-                <a class="footer__menu-link" href="#">Instagram</a>
-              </li>
-              <li class="footer__menu-item">
-                <a class="footer__menu-link" href="#">LinkedIn</a>
-              </li>
-            </ul>
+<ul class="footer__menu-list">
+  {% for social in site.data.social.items %}
+  <li class="footer__menu-item">
+    <a class="footer__menu-link" href="{{ social.url }}">{{ social.name }}</a>
+  </li>
+  {% endfor %}
+</ul>
           </div>
           <div class="footer__feedback">
             <div class="footer__title">Sign up to our newsletter</div>
