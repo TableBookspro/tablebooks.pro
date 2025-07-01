@@ -1,8 +1,8 @@
 <footer>
-  <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+  <p>© {{ site.time | date: '%Y' }} {{ site.title }}</p>
   <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a> | Phone: {{ site.phone }}</p>
   <ul>
-    {% if if site.social.twitter %}<li><a href="{{ site.social.twitter }}">Twitter</a></li>{% endif %}
+    {% if site.social.twitter %}<li><a href="{{ site.social.twitter }}">Twitter</a></li>{% endif %}
     {% if site.social.facebook %}<li><a href="{{ site.social.facebook }}">Facebook</a></li>{% endif %}
   </ul>
 </footer>
