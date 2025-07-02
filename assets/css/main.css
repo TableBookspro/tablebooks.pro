@@ -4825,7 +4825,7 @@ a:hover, a:focus {
 @media (min-width: 576px) {
   .creative-hero__title {
     max-width: 44.4%;
-    margin-top: 92px;
+    margin-top: 12px;
     margin-bottom: 56px;
     font-size: 48px;
     font-size: 52px;
