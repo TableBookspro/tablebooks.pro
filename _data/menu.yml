@@ -10,7 +10,7 @@ items:
         url: "/books/american"
         title: "American Coffee Table Book"
       - name: Bitcoin Coffee Table Book
-        url: "https://bitcoincoffeetablebook.com/"
+        url: "books/bitcoin"
         title: "Bitcoin Coffee Table Book"
   - name: About
     url: "/about"
