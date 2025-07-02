@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Product Page
+title: Our Books
 ---
 
 Coming Soon
