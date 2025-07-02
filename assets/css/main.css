@@ -3497,7 +3497,7 @@ a:hover, a:focus {
 }
 
 .card-price--gradient .card-price__wrapper {
-  background: url("../img/gradient.jpg") no-repeat center;
+  background: url("{{ '/assets/img/picture/single-project/5.jpg' | relative_url }}") no-repeat center;
   background-size: cover;
   border: 0;
 }
