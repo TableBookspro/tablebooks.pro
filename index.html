@@ -113,11 +113,12 @@ title: TABLE books pro
       background: rgba(0, 0, 0, 0); /* Semi-transparent dark overlay */
       border-radius: 8px; /* Added rounded corners */
       z-index: 1;
+      pointer-events: none; /* Prevent overlay from blocking clicks */
     }
     .card-price__wrapper {
       position: relative;
       z-index: 2; /* Ensure content is above overlay */
-      background: rgba(255, 255, 255, .3); /* Slightly transparent white background for content */
+      background: rgba(255, 255, 255, .1); /* Slightly transparent white background for content */
       padding: 20px;
       border-radius: 8px;
     }
