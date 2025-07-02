@@ -42,11 +42,21 @@
           <div class="footer__bottom">
             <div class="footer__copyright">© IWM LLC 2025.<br>All Rights Resevered.<br>TABLE books pro™</div>
             <div class="footer__privacy"><a class="footer__privacy" href="#">Privacy Policy</a><br><a class="footer__privacy" href="#">Terms of Service</a><br><a class="footer__privacy" href="#">Affiliate Disclosure</a></div>
-            <script>
-var iframe = document.getElementsByTagName('iframe')[0];
-iframe.style.background = '#960000';
-iframe.contentWindow.document.body.style.backgroundColor = '#960000';
-            </script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const iframe = document.querySelector('iframe[src*="substack.com"]');
+      if (iframe) {
+        iframe.style.backgroundColor = '#f0f0f0';
+        const wrapper = document.createElement('div');
+        wrapper.style.backgroundColor = '#f0f0f0';
+        wrapper.style.padding = '5px';
+        iframe.parentNode.insertBefore(wrapper, iframe);
+        wrapper.appendChild(iframe);
+      } else {
+        console.warn('Substack iframe not found');
+      }
+    });
+  </script>
           </div>
         </div>
       </div>
