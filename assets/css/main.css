@@ -4768,18 +4768,21 @@ a:hover, a:focus {
 
 /* 3.13 Hero section in creative homepage */
 .creative-hero {
-  padding: 100px 0 70px;
+/*   padding: 100px 0 70px; */
+    padding: 60px 0 70px;
 }
 
 @media (min-width: 992px) {
   .creative-hero {
-    padding-top: 75px;
+/*     padding-top: 75px; */
+    padding-top: 60px;
   }
 }
 
 @media (min-width: 1200px) {
   .creative-hero {
-    padding-top: 100px;
+/*     padding-top: 100px; */
+    padding-top: 60px;
   }
 }
 
@@ -4816,6 +4819,7 @@ a:hover, a:focus {
 .creative-hero__title {
   max-width: 160px;
   margin: 0 0 50px;
+  margin: 0 30px 50px;
   font-size: 36px;
   font-weight: 500;
   line-height: 0.95;
