@@ -103,7 +103,7 @@ title: TABLE books pro
                 <div class="plans-section__item card-price col-12 col-lg-6 col-xl-6" data-aos="fade-up" style="background-image: url('{{ '/assets/img/american/american-coffee-table-book-1.png' | relative_url }}'); background-size: cover; background-position: center; position: relative;">
 
   <style>
-    .card-price::before {
+    .card-price__wrapper::before {
       content: '';
       position: absolute;
       top: 0;
@@ -116,7 +116,7 @@ title: TABLE books pro
     .card-price__wrapper {
       position: relative;
       z-index: 2; /* Ensure content is above overlay */
-      background: rgba(255, 255, 255, .5); /* Slightly transparent white background for content */
+      background: rgba(255, 255, 255, .3); /* Slightly transparent white background for content */
       padding: 20px;
       border-radius: 8px;
     }
