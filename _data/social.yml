@@ -8,9 +8,9 @@ items:
   - name: Instagram
     url: "https://www.instagram.com/tablebookspro/"
     icon: instagram
-  - name: Twitter
+  - name: X
     url: "https://x.com/TableBookspro"
-    icon: twitter
+    icon: x
   - name: Substack
     url: "https://tablebookspro.substack.com/"
     icon: substack
