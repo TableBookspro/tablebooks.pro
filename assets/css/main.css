@@ -10571,11 +10571,11 @@ a:hover, a:focus {
   outline: none;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .footer__privacy:hover, .footer__privacy:focus {
     text-decoration: underline;
   }
-}
+} */
 
 /* 5.3 Wrapper for header and main content */
 .leftward-wrapper {
