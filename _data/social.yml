@@ -11,3 +11,6 @@ items:
   - name: Twitter
     url: "https://x.com/TableBookspro"
     icon: twitter
+  - name: Substack
+    url: "https://tablebookspro.substack.com/"
+    icon: substack

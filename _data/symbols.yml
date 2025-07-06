@@ -125,3 +125,8 @@
     <symbol id="tiktok" viewBox="0 0 16 16">
       <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
     </symbol>
+- id: substack
+  content: |
+    <symbol id="substack" viewBox="0 0 64 64">
+      <path d="M60 14.416H4v7.564h56v-7.564M4 28.832V64l28-15.704L60 64V28.832M60 0H4v7.56h56z"/>
+    </symbol>
