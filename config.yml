@@ -16,3 +16,6 @@ timezone: "America/New_York"
 date_format: "%b %-d, %Y"
 
 email: "tablebookspro@protonmail.com"
+
+exclude:
+  - README.md
