@@ -1,7 +1,7 @@
 title: TABLE books pro
 description: "Table books pro ia an independent publisher of unique table books, slim volumes, and more. Better Coffee Table Books."
 baseurl: "/tablebooks.pro"
-url: "https://tablebookspro.github.io"
+url: "https://tablebooks.pro"
 markdown: kramdown
 theme: minima
 plugins:
