@@ -12,6 +12,12 @@ date_format: "%b %-d, %Y"
 jekyll-seo-tag:
   static_image: /assets/img/logo/table-book-og-logo.jpg
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/logo/table-book-og-logo.jpg
+
 # Social profiles (optional, for social meta tags)
 twitter:
   username: tablebookspro
