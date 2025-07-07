@@ -1,6 +1,6 @@
 # Site settings
-title: TABLE Books Pro
-description: "Table Books Pro is an independent publisher of unique table books, slim volumes, and more. Better Coffee Table Books."
+title: "TABLE books pro"
+description: "Table books pro is an independent publisher of unique table books, slim volumes, and more. Better Coffee Table Books."
 url: "https://tablebooks.pro"
 baseurl: ""
 email: "tablebookspro@protonmail.com"
@@ -12,6 +12,7 @@ date_format: "%b %-d, %Y"
 markdown: kramdown
 theme: minima
 permalink: pretty
+safe: false # Explicitly allow plugins
 
 # Plugins
 plugins:
@@ -19,6 +20,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Exclude files from processing
+# Exclude files
 exclude:
   - README.md
