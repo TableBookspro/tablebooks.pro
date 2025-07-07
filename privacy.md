@@ -3,6 +3,8 @@ layout: default
 title: Privacy Policy
 ---
 
+<main>
+
 # Privacy Policy
 
 Effective Date: July 01, 2025
@@ -60,3 +62,5 @@ If you have any questions or concerns about this Privacy Policy, please contact 
 ## Updates to This Policy
 
 We may update this Privacy Policy from time to time. Any changes will be posted on this page, and the effective date will be updated accordingly.
+
+</main>
