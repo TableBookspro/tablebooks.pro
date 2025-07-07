@@ -8,21 +8,36 @@ lang: "en-US"
 timezone: "America/New_York"
 date_format: "%b %-d, %Y"
 
+logo: /assets/img/table-book-og-logo.jpg
+jekyll-seo-tag:
+  static_image: /assets/img/table-book-og-logo.jpg
+
+# Social profiles (optional, for social meta tags)
+twitter:
+  username: tablebookspro
+facebook:
+  username: tablebookspro
+author:
+  name: TABLE books pro
+  email: tablebookspro@protonmail.com
+  twitter: tablebookspro
+
 # Build settings
 markdown: kramdown
 
 permalink: pretty
-safe: false # Explicitly allow plugins
+
+# Exclude files
+exclude:
+  - drafts/
+  - private/
+  - README.md
 
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-
-# Exclude files
-exclude:
-  - README.md
 
 sitemap:
   priorities:
