@@ -2,15 +2,17 @@
 title: "TABLE books pro"
 description: "TABLE books pro is an independent publisher of edge-printed table books, gorgeous slim volumes, unique mongraphs, and more. We live by the ethos that the things that decorate our tables and bookshelves should be Imbued With Meaning.<br><br>Our expanding catalogue contains Bitcoin Coffee Table Book, American Coffee Table Book and more."
 url: "https://tablebooks.pro"
+logo: /assets/img/table-book-og-logo.jpg
 baseurl: ""
 email: "tablebookspro@protonmail.com"
 lang: "en-US"
 timezone: "America/New_York"
 date_format: "%b %-d, %Y"
 
-logo: /assets/img/table-book-og-logo.jpg
+# SEO, OG, Etc.
 jekyll-seo-tag:
   static_image: /assets/img/table-book-og-logo.jpg
+  separator: "-"
 
 # Social profiles (optional, for social meta tags)
 twitter:
