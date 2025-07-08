@@ -10928,8 +10928,6 @@ a:hover, a:focus {
 
 
 
-
-
 @media (min-width: 768px) {
   .creative-hero__container,
   .single-project__hero,
@@ -10945,12 +10943,13 @@ a:hover, a:focus {
     margin: 0; /* Remove any margins */
     padding: 0; /* Remove any padding */
     width: 100%; /* Ensure containers take full column width */
+    overflow: visible; /* Prevent image clipping */
   }
   .creative-hero__image .hero-logo {
     width: 100%; /* Full width of col-6 col-md-4 */
-    min-height: 350px; /* Increase size to balance with text */
+    max-height: 400px; /* Larger size to balance with text */
     height: auto; /* Scale height proportionally */
-    object-fit: cover; /* Fill container, may crop slightly */
+    object-fit: contain; /* Ensure entire image is visible */
     margin: 0;
     padding: 0;
     display: block; /* Remove inline centering */
@@ -10959,7 +10958,7 @@ a:hover, a:focus {
     margin: 0; /* Remove any margins on h2 */
     padding: 0; /* Remove any padding */
     width: 100%; /* Ensure text spans full container */
-    font-size: 2.5rem; /* Optional: Adjust font size to balance with image */
+    font-size: 2.5rem; /* Adjust font size to balance with image */
   }
   .plans-section__item {
     background-position: left center !important; /* Left-align book images */
@@ -10982,6 +10981,7 @@ a:hover, a:focus {
     margin: 0;
     padding: 0;
     width: 100%;
+    overflow: visible; /* Prevent clipping on mobile */
   }
   .plans-section__container {
     display: flex;
