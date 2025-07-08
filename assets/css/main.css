@@ -4856,14 +4856,14 @@ a:hover, a:focus {
 
 @media (min-width: 992px) {
   .creative-hero__title {
-    padding-left: 50px;
+    padding-left: 0px;
     font-size: 84px;
   }
 }
 
 @media (min-width: 992px) {
   .creative-hero__title {
-    margin-bottom: 84px;
+    margin-bottom: 24px;
     font-size: 100px;
   }
 }
@@ -4871,7 +4871,7 @@ a:hover, a:focus {
 @media (min-width: 1200px) {
   .creative-hero__title {
     max-width: 480px;
-    padding-left: 50px;
+    padding-left: 0px;
   }
 }
 
