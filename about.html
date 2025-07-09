@@ -25,7 +25,7 @@ title: About
             </div>
             <div class="about-section__aside col-md-8">
               <div class="about-section__image" data-aos="fade-up">
-                <img src="img/founder/eric.jpg" alt="Team">
+                <img src="/assets/img/founder/eric.jpg" alt="Team">
               </div>
             </div>
             <div class="about-section__steps col-12 col-md-8 order-md-last">
@@ -41,80 +41,73 @@ title: About
           </div>
         </div>
       </section>
-      <section class="carousel-section carousel-section--separator carousel-section--pb-large">
-        <div class="carousel-section__container container container--size-large">
-          <header class="carousel-section__header row align-items-end align-items-md-center">
-            <h2 class="carousel-section__title col-8 col-md-10" data-aos="fade-up">Latest Books</h2>
-            <div class="carousel-section__nav col-12 col-md-2 order-last order-md-0" data-aos="fade-up">
-              <button class="nav-btn nav-btn--prev" data-target=".__js_carousel-latest-projects" type="button">
-                <svg width="50" height="16">
-                  <use xlink:href="#long-arrow-left"></use>
-                </svg>
-              </button>
-              <button class="nav-btn nav-btn--next" data-target=".__js_carousel-latest-projects" type="button">
-                <svg width="50" height="16">
-                  <use xlink:href="#long-arrow-right"></use>
-                </svg>
-              </button>
-            </div>
-          </header>
-          <div class="carousel-section__carousel carousel carousel--slide-auto swiper-container __js_carousel-latest-projects" data-aos="fade-up">
-            <div class="swiper-wrapper">
-              <a class="carousel__item project-preview swiper-slide" href="single-project.html">
-                <span class="project-preview__image">
-                  <img src="img/picture/carousel/8.jpg" width="720" height="548" alt="swiss typography">
-                </span>
-                <span class="project-preview__bottom">
-                  <span class="project-preview__title">Swiss typography</span>
-                  <span class="project-preview__icon">
-                    <svg width="24" height="23">
-                      <use xlink:href="#link-arrow2"></use>
-                    </svg>
-                  </span>
-                </span>
-              </a>
-              <a class="carousel__item project-preview swiper-slide" href="single-project.html">
-                <span class="project-preview__image">
-                  <img src="img/picture/carousel/9.jpg" width="334" height="255" alt="the act">
-                </span>
-                <span class="project-preview__bottom">
-                  <span class="project-preview__title">The act</span>
-                  <span class="project-preview__icon">
-                    <svg width="24" height="23">
-                      <use xlink:href="#link-arrow2"></use>
-                    </svg>
-                  </span>
-                </span>
-              </a>
-              <a class="carousel__item project-preview swiper-slide" href="single-project.html">
-                <span class="project-preview__image">
-                  <img src="img/picture/carousel/10.jpg" width="404" height="494" alt="Copenhagen">
-                </span>
-                <span class="project-preview__bottom">
-                  <span class="project-preview__title">Copenhagen</span>
-                  <span class="project-preview__icon">
-                    <svg width="24" height="23">
-                      <use xlink:href="#link-arrow2"></use>
-                    </svg>
-                  </span>
-                </span>
-              </a>
-              <a class="carousel__item project-preview swiper-slide" href="single-project.html">
-                <span class="project-preview__image">
-                  <img src="img/picture/carousel/11.jpg" width="434" height="321" alt="Mobile app">
-                </span>
-                <span class="project-preview__bottom">
-                  <span class="project-preview__title">Mobile app</span>
-                  <span class="project-preview__icon">
-                    <svg width="24" height="23">
-                      <use xlink:href="#link-arrow2"></use>
-                    </svg>
-                  </span>
-                </span>
-              </a>
-            </div>
+      <section class="portfolio-section container container--size-large portfolio-section--no-padding">
+        <header class="portfolio-section__header row align-items-end">
+          <div class="col-8 col-xl-6 offset-xl-2">
+            <h2 class="portfolio-section__title">Our Books</h2>
           </div>
-        </div>
+          <div class="col-4 text-right">
+            <a class="portfolio-section__more arrow-link" href="/books/">
+              <span class="arrow-link__text">View All Books</span>
+              <span class="arrow-link__icon">
+                <svg width="75" height="75">
+                  <use xlink:href="#link-arrow"></use>
+                </svg>
+              </span>
+            </a>
+          </div>
+        </header>
+        <ul class="portfolio-section__grid __js_portfolio-section-masonry">
+          <li class="portfolio-section__item __js_masonry-item">
+            <a class="project-preview project-preview--elastic project-preview" href="/books/american/">
+              <span class="project-preview__image">
+                <img src="{{ '/assets/img/american/american-coffee-table-book-1.png' | relative_url }}" width="531"
+                  height="417"
+                  alt="American Coffee Table Book">
+              </span>
+              <span class="project-preview__bottom">
+                <span class="project-preview__title">American Coffee Table Book</span>
+                <span class="project-preview__icon">
+                  <svg width="24" height="23">
+                    <use xlink:href="#link-arrow2"></use>
+                  </svg>
+                </span>
+              </span>
+            </a>
+          </li>
+          <li class="portfolio-section__item __js_masonry-item">
+            <a class="project-preview project-preview--elastic project-preview" href="/books/bitcoin/">
+              <span class="project-preview__image">
+                <img src="{{ '/assets/img/bitcoin/bitcoin-coffee-table-book-1.png' | relative_url }}" width="531"
+                  height="417" alt="Bitcoin Coffee Table Book">
+              </span>
+              <span class="project-preview__bottom">
+                <span class="project-preview__title">Bitcoin Coffee Table Book</span>
+                <span class="project-preview__icon">
+                  <svg width="24" height="23">
+                    <use xlink:href="#link-arrow2"></use>
+                  </svg>
+                </span>
+              </span>
+            </a>
+          </li>
+          <li class="portfolio-section__item __js_masonry-item">
+            <a class="project-preview project-preview--elastic project-preview" href="/books/sun/">
+              <span class="project-preview__image">
+                <img src="{{ '/assets/img/american/american-coffee-table-book-2.jpg' | relative_url }}" width="531"
+                  height="417" alt="SUN by D.H. Lawrence">
+              </span>
+              <span class="project-preview__bottom">
+                <span class="project-preview__title">SUN by D.H. Lawrence</span>
+                <span class="project-preview__icon">
+                  <svg width="24" height="23">
+                    <use xlink:href="#link-arrow2"></use>
+                  </svg>
+                </span>
+              </span>
+            </a>
+          </li>
+        </ul>
       </section>
     </div>
   </article>
