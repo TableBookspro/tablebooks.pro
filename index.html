@@ -7,7 +7,7 @@ sitemap: true
 <main>
   <article class="creative-hero">
     <div class="creative-hero__container container container--size-large">
-      <div class="col-md-4">
+      <div class="row col-md-4">
         <!-- Text Section -->
         <div class="col-6" data-aos="fade-right" data-aos-delay="0">
           <div class="services-section__text">
@@ -23,14 +23,15 @@ sitemap: true
           <img src="{{ '/assets/img/logo/table-book-logo.png' | relative_url }}" style="max-width: 100%; height: auto;"
             class="img-fluid" alt="Table Book Logo">
         </div>
-
+        <div class="row">
           <div class="col-12">
             <div class="single-project__hero-text" style="max-width: 100%; text-align: justify;" data-aos="fade-up"
               data-aos-delay="50">
               {{ site.description }}
             </div>
           </div>
-
+        </div>
+      </div>
       </div>
       <div class="col-md-8" style="height: 1px;"></div>
       <section class="portfolio-section portfolio-section--no-padding">
@@ -100,6 +101,5 @@ sitemap: true
           </li>
         </ul>
       </section>
-    </div>
   </article>
 </main>
