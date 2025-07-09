@@ -12,6 +12,9 @@ items:
       - name: Bitcoin Coffee Table Book
         url: "books/bitcoin"
         title: "Bitcoin Coffee Table Book"
+      - name: SUN by D.H. Lawrence
+        url: "books/sun"
+        title: "SUN by D.H. Lawrence"
   - name: About
     url: "/about"
     title: "About Us"
