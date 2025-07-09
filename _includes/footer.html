@@ -2,7 +2,7 @@
   <div class="footer__container container container--size-large">
     <div class="col-md-4" style="height: 1px;"></div>
     <div class="footer__grid col-md-8">
-      <div class="footer__menu">
+      <div class="footer__menu col-4">
         <div class="footer__title">Quick Links</div>
         <ul class="footer__menu-list">
           {% for item in site.data.menu.items %}
@@ -12,7 +12,7 @@
           {% endfor %}
         </ul>
       </div>
-      <div class="footer__menu">
+      <div class="footer__menu col-4">
         <div class="footer__title">Follow</div>
         <ul class="footer__menu-list">
           {% for social in site.data.social.items %}
@@ -22,7 +22,7 @@
           {% endfor %}
         </ul>
       </div>
-      <div class="footer__feedback">
+      <div class="footer__feedback col-4">
         <a class="header__logo logo" style="padding-top: 5px; padding-bottom: 20px;" href="/">
           <svg width="119" height="19">
             <use xlink:href="#logo"></use>
@@ -31,7 +31,7 @@
 
         <div class="footer__feedback-notice">{{ site.description }}</div>
       </div>
-      <div class="footer__bottom">
+      <div class="footer__bottom col-12">
         <div class="footer__copyright"><strong>IMBUED WITH MEANING</strong><br>© IWM LLC 2025<br>All Rights
           Reserved<br>TABLE books pro</div>
         <div class="footer__menu">
@@ -41,7 +41,8 @@
             </li>
             <li class="footer__menu-item">
               <a class="footer__menu-link" href="https://tablebooks.pro/terms-of-service/"
-                class="footer__menu-item">Terms of Service</a>
+                class="footer__menu-item">Terms
+                of Service</a>
             </li>
             <li class="footer__menu-item">
               <a class="footer__menu-link" href="https://tablebooks.pro/disclosure/" class="footer__menu-item">Affiliate
