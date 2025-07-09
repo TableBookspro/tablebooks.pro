@@ -2051,7 +2051,7 @@ a:hover, a:focus {
 .comment .comment-item--replyed {
   padding-left: 20px;
   margin-left: 20px;
-  border-left: 1px solid #e5e5e5;
+  border-left: 1px solid #fff /* WAS #e5e5e5 */;
 }
 
 @media (min-width: 992px) {
@@ -10741,7 +10741,7 @@ a:hover, a:focus {
 }
 
 .webpage--bg-white .header__menu::before {
-  background-color: #ffffff;
+  background-color: #ffffff; 
 }
 
 .webpage--bg-black {
@@ -10764,22 +10764,22 @@ a:hover, a:focus {
 }
 
 .webpage--bg-grey {
-  background-color: #e5e5e5;
+  background-color: #fff /* WAS #e5e5e5 */;
 }
 
 .webpage--bg-grey main,
 .webpage--bg-grey .leftward-wrapper {
-  background-color: #e5e5e5;
-  -webkit-box-shadow: 0 -20px 0 20px #e5e5e5;
-          box-shadow: 0 -20px 0 20px #e5e5e5;
+  background-color: #fff /* WAS #e5e5e5 */;
+  -webkit-box-shadow: 0 -20px 0 20px #fff /* WAS #e5e5e5 */;
+          box-shadow: 0 -20px 0 20px #fff /* WAS #e5e5e5 */;
 }
 
 .webpage--bg-grey .carousel::before {
-  background-color: #e5e5e5;
+  background-color: #fff /* WAS #e5e5e5 */;
 }
 
 .webpage--bg-grey .header__menu::before {
-  background-color: #e5e5e5;
+  background-color: #fff /* WAS #e5e5e5 */;
 }
 
 .header-column {
