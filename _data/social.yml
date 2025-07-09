@@ -14,3 +14,6 @@ items:
   - name: Substack
     url: "https://tablebookspro.substack.com/"
     icon: substack
+  - name: Goodreads
+    url: "https://tablebookspro.substack.com/"
+    icon: goodreads
