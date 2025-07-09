@@ -138,7 +138,7 @@ html {
     background-color: #999;
   }
   html ::-webkit-resizer {
-    background-color: #666;
+    background-color: #ffffff;
   }
 }
 
