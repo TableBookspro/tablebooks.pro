@@ -14,23 +14,15 @@ sitemap: true
                 <div class="contact-section__link style="font-size: .7rem;" data-aos="fade-up">
                   <a href="mailto:tablebookspro@protonmail.com">tablebookspro@protonmail.com</a>
                 </div>
-                <ul class="contact-section__social" data-aos="fade-up">
-                  <li>
-                    <a href="https://www.tiktok.com/@tablebookspro">Tik Tok</a>
-                  </li>
-                  <li>
-                    <a href="https://www.facebook.com/tablebookspro/">Facebook</a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/tablebookspro/">Instagram</a>
-                  </li>
-                  <li>
-                    <a href="https://x.com/TableBookspro">X.com</a>
-                  </li>
-                  <li>
-                    <a href="https://tablebookspro.substack.com/">Substack</a>
-                  </li>
-                </ul>
+          <div class="footer__title">Follow</div>
+          <ul class="footer__menu-list">
+            {% for social in site.data.social.items %}
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="{{ social.url }}">{{ social.name }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
               </div>
               <div class="col-12 col-md">
                 <div class="discuss-project discuss-project--no-padding contact-section__aside">
