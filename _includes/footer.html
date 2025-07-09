@@ -1,59 +1,55 @@
-    <footer class="footer __js_fixed-footer">
-      <div class="footer__container container container--size-large">
-        <div class="footer__grid">
-          <a class="footer__logo" href="/">
-            <!--<svg width="242" height="59">
-              <use xlink:href="#logo"></use>
-            </svg>-->
-          </a>
-          <div class="footer__phone">
-            <a href="#"></a>
-          </div>
-          <div class="footer__menu">
-  <div class="footer__title">Quick Links</div>
-  <ul class="footer__menu-list">
-    {% for item in site.data.menu.items %}
-    <li class="footer__menu-item">
-      <a class="footer__menu-link" href="{{ item.url | relative_url }}">{{ item.name }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
-          <div class="footer__menu">
-            <div class="footer__title">Follow</div>
-<ul class="footer__menu-list">
-  {% for social in site.data.social.items %}
-  <li class="footer__menu-item">
-    <a class="footer__menu-link" href="{{ social.url }}">{{ social.name }}</a>
-  </li>
-  {% endfor %}
-</ul>
-          </div>
-          <div class="footer__feedback">
-          <a class="header__logo logo" style="padding-top: 5px; padding-bottom: 20px;" href="/">
+<footer class="footer __js_fixed-footer">
+  <div class="footer__container container container--size-large">
+    <div class="col-md-4" style="height: 1px;"></div>
+    <div class="footer__grid col-md-8">
+      <div class="footer__menu">
+        <div class="footer__title">Quick Links</div>
+        <ul class="footer__menu-list">
+          {% for item in site.data.menu.items %}
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="{{ item.url | relative_url }}">{{ item.name }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="footer__menu">
+        <div class="footer__title">Follow</div>
+        <ul class="footer__menu-list">
+          {% for social in site.data.social.items %}
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="{{ social.url }}">{{ social.name }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="footer__feedback">
+        <a class="header__logo logo" style="padding-top: 5px; padding-bottom: 20px;" href="/">
           <svg width="119" height="19">
             <use xlink:href="#logo"></use>
           </svg>
         </a>
 
-            <div class="footer__feedback-notice">{{ site.description }}</div>
-          </div>
-          <div class="footer__bottom">
-            <div class="footer__copyright"><strong>IMBUED WITH MEANING</strong><br>© IWM LLC 2025<br>All Rights Reserved<br>TABLE books pro</div>
-            <div class="footer__menu">
-              <ul class="footer__menu-list">
-                <li class="footer__menu-item">
-                  <a class="footer__menu-link" href="https://tablebooks.pro/privacy/">Privacy Policy</a>
-                </li>
-                <li class="footer__menu-item">
-                  <a class="footer__menu-link" href="https://tablebooks.pro/terms-of-service/" class="footer__menu-item">Terms of Service</a>
-                </li>
-                <li class="footer__menu-item">
-                  <a class="footer__menu-link" href="https://tablebooks.pro/disclosure/" class="footer__menu-item">Affiliate Disclosure</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+        <div class="footer__feedback-notice">{{ site.description }}</div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__copyright"><strong>IMBUED WITH MEANING</strong><br>© IWM LLC 2025<br>All Rights
+          Reserved<br>TABLE books pro</div>
+        <div class="footer__menu">
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="https://tablebooks.pro/privacy/">Privacy Policy</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="https://tablebooks.pro/terms-of-service/"
+                class="footer__menu-item">Terms of Service</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="https://tablebooks.pro/disclosure/" class="footer__menu-item">Affiliate
+                Disclosure</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </footer> 
+    </div>
+  </div>
+</footer>
