@@ -1,13 +1,13 @@
 # Site settings
 title: "TABLE books pro"
-description: "TABLE books pro is an independent publisher of edge-printed coffee table books, slim volumes, and monographs. We believe tha the the books that decorate our tables should be beautiful.<br><br>Our ever-expanding catalogue contains Bitcoin Coffee Table Book and SUN by D.H. Lawrence. American Coffee Table Book is coming soon and can be pre-ordered online wherever books ae sold."
+description: "TABLE books pro is an independent publisher of edge-printed coffee table books, slim volumes, and monographs. We believe that the books that decorate our tables should be beautiful.<br><br>Our ever-expanding catalogue contains Bitcoin Coffee Table Book and SUN by D.H. Lawrence. American Coffee Table Book is coming soon and can be pre-ordered online wherever books are sold."
 url: "https://tablebooks.pro"
 baseurl: ""
 email: "tablebookspro@protonmail.com"
 lang: "en-US"
 timezone: "America/New_York"
 date_format: "%b %-d, %Y"
-about: "My name is Eric Freeburg. I am a thirty-eight year old American based out of Wilton, Connecticut. A few years ago, I noticed a distinct lack of meaningful and holistic designs coming out of the coffee table book industry. So I decided to change that.<br><br> TABLE books pro began by publishing the Bitcoin Coffee Table Book but has since expanded into more offerings. Our guiding principle is that you <strong>should</strong> judge a book by it's cover. "
+about: "My name is Eric Freeburg. I am a thirty-eight year old American based out of Wilton, Connecticut. A few years ago, I noticed a distinct lack of meaningful and holistic designs coming out of the coffee table book industry. So I decided to change that.<br><br> TABLE books pro began by publishing the Bitcoin Coffee Table Book but has since expanded into more offerings. Our guiding principle is that you <strong>should</strong> judge a book by it's cover."
 
 # SEO, OG, Etc.
 jekyll-seo-tag:
