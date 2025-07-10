@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Privacy Policy
+sitemap: false
 ---
 
 # Privacy Policy
