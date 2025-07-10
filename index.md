@@ -1,8 +1,8 @@
 ---
 layout: default
 title: TABLE books pro
-sitemap: true
-sitemap_priority: 0.9
+sitemap:
+  priority: 0.9
 ---
 
 <style>
