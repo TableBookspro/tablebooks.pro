@@ -3,31 +3,38 @@ layout: default
 title: Bitcoin Coffee Table Book
 ---
 
-    <main>
-      <article class="single-project">
-        <div class="single-project__container container container--size-large">
-          <div class="single-project__hero row">
-            <div class="single-project__hero-image col-12 col-md-6 col-lg-7 col-xxl-6">
-              <img src="{{ '/assets/img/bitcoin/bitcoin-coffee-table-book-1.png' | relative_url }}" width="785" alt="project photo">
-            </div>
-            <div class="single-project__hero-main col-12 col-md-6 col-lg-5 col-xxl-6 order-md-first">
-              <h1 class="single-project__title" style="line-height: 1.1; display: block;">
-                <span style="display: inline-block; width: 50%;">BITCOIN</span>
-                <span style="display: inline-block; width: 50%;">COFFEE</span>
-                <span style="display: inline-block; width: 50%;">TABLE</span>
-                <span style="display: inline-block; width: 50%;">BOOK</span>
-              </h1>
-              <div class="single-project__icon">
-                <svg width="75" height="75">
-                  <use xlink:href="#link-arrow"></use>
-                </svg>
-              </div>
-              <div class="single-project__hero-text">
-                <strong>The Code, The Correspondence, The Paper</strong><br><br>It all started on October 31st 2008, when the pseudonymous Satoshi Nakamoto published a whitepaper called Bitcoin: A Peer-to-Peer Electronic Cash System.<br><br>This elegant hardback combines the timeless words of our founders with original introduction, preface, and editor’s notes offering a fresh perspective on the our country’s cornerstone texts.<br><br>Bitcoin Coffee Table Book: Volume Zero is a 550 page doorstop showcasing the beginnings of Bitcoin. Elegantly designed so that you can immerse yourself and your living space in the very genesis of the Bitcoin revolution.
-              </div>
-            </div>
+<main>
+  <article class="single-project">
+    <div class="single-project__container container container--size-large">
+      <div class="single-project__hero row">
+        <div class="single-project__hero-image col-12 col-md-6 col-lg-7 col-xxl-6">
+          <img src="{{ '/assets/img/bitcoin/bitcoin-coffee-table-book-1.png' | relative_url }}" width="785"
+            alt="project photo">
+        </div>
+        <div class="single-project__hero-main col-12 col-md-6 col-lg-5 col-xxl-6 order-md-first">
+          <h1 class="single-project__title" style="line-height: 1.1; display: block;">
+            <span style="display: inline-block; width: 50%;">BITCOIN</span>
+            <span style="display: inline-block; width: 50%;">COFFEE</span>
+            <span style="display: inline-block; width: 50%;">TABLE</span>
+            <span style="display: inline-block; width: 50%;">BOOK</span>
+          </h1>
+          <div class="single-project__icon">
+            <svg width="75" height="75">
+              <use xlink:href="#link-arrow"></use>
+            </svg>
           </div>
-          <!--<section class="meta">
+          <div class="single-project__hero-text">
+            <strong>The Code, The Correspondence, The Paper</strong><br><br>It all started on October 31st 2008, when
+            the pseudonymous Satoshi Nakamoto published a whitepaper called Bitcoin: A Peer-to-Peer Electronic Cash
+            System.<br><br>This elegant hardback combines the timeless words of our founders with original introduction,
+            preface, and editor’s notes offering a fresh perspective on the our country’s cornerstone
+            texts.<br><br>Bitcoin Coffee Table Book: Volume Zero is a 550 page doorstop showcasing the beginnings of
+            Bitcoin. Elegantly designed so that you can immerse yourself and your living space in the very genesis of
+            the Bitcoin revolution.
+          </div>
+        </div>
+      </div>
+      <!--<section class="meta">
             <div class="row">
               <div class="col-12 col-lg-4" data-aos="fade-up">
                 <div class="meta__image">
@@ -136,6 +143,6 @@ title: Bitcoin Coffee Table Book
               </svg>
             </a>
           </div>-->
-        </div>
-      </article>
-    </main>
+    </div>
+  </article>
+</main>
