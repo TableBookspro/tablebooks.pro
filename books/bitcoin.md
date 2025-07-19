@@ -19,9 +19,6 @@ title: Bitcoin Coffee Table Book
             <span style="display: inline-block; width: 50%;">BOOK</span>
           </h1>
           <div class="single-project__icon">
-            <svg width="75" height="75">
-              <use xlink:href="#link-arrow"></use>
-            </svg>
             {% include amazon-sale.html %}
           </div>
           <div class="single-project__hero-text">
