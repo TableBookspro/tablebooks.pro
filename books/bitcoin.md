@@ -22,7 +22,7 @@ title: Bitcoin Coffee Table Book
             <svg width="75" height="75">
               <use xlink:href="#link-arrow"></use>
             </svg>
-            {% include amazon-button.html %}
+            {% include amazon-sale.html %}
           </div>
           <div class="single-project__hero-text">
             <strong>The Code, The Correspondence, The Paper</strong><br><br>It all started on October 31st 2008, when
