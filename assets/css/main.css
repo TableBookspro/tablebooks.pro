@@ -6441,7 +6441,7 @@ a:hover, a:focus {
 
 @media (min-width: 768px) {
   .start-project__title {
-    margin-bottom: 110px;
+    margin-bottom: 46px;
     font-size: 110px;
   }
 }
@@ -9321,7 +9321,7 @@ a:hover, a:focus {
 
 @media (min-width: 1400px) {
   .single-project__title {
-    margin-bottom: 110px;
+    margin-bottom: 46px;
   }
 }
 
