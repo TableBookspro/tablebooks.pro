@@ -10915,43 +10915,38 @@ a:hover, a:focus {
 
 
 
-
-
 .amazon-buttons-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Or 'center' if you want them centered */
+  align-items: flex-start; /* Or 'center' if preferred */
   gap: 10px; /* Space between buttons */
+  max-width: 200px; /* Optional: Constrain width to match typical Prime button size */
 }
 
 /* The Buy with Prime button is styled by Amazon's JS, so no custom button CSS here */
 
 .amazon-buy-button {
-  background-color: #FF9900; /* Amazon orange to mimic Prime button */
-  color: #000000; /* Black text for contrast */
-  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffd814, #ffa41c); /* Amazon orange-yellow gradient for flair */
+  border: 1px solid #ffa41c; /* Subtle border to match Amazon styling */
+  color: #0f1111; /* Dark text for contrast */
+  font-family: "Amazon Ember", Arial, sans-serif; /* Amazon's preferred font stack */
   font-size: 14px;
   font-weight: bold;
   padding: 8px 16px;
-  border: none;
-  border-radius: 2px;
+  border-radius: 4px; /* Rounded corners like Prime button */
   text-decoration: none;
   display: inline-block;
   text-align: center;
   cursor: pointer;
-  width: 180px; /* Approximate width to match typical Prime button size */
-  transition: background-color 0.2s ease;
+  min-width: 180px; /* Minimum width to align with typical Prime button */
+  box-shadow: 0 2px 5px rgba(15, 17, 17, 0.15); /* Subtle shadow for depth */
+  transition: box-shadow 0.2s ease-in-out, background 0.2s ease;
 }
 
 .amazon-buy-button:hover {
-  background-color: #FA8900; /* Slightly darker orange for hover */
+  background: linear-gradient(to bottom, #f7c800, #f58a00); /* Slightly darker gradient on hover */
+  box-shadow: 0 0 3px rgba(255, 153, 0, 0.5); /* Glow effect for interactivity */
 }
-
-
-
-
-
-
 
 
 
