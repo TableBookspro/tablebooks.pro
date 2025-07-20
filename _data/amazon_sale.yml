@@ -7,7 +7,7 @@ american:
 bitcoin:
   buy_with_prime_sku: "YOUR_PRODUCT_SKU_HERE"  # Replace or leave blank: ""
   buy_with_prime_placement_id: "YOUR_PLACEMENT_ID_HERE"  # Replace or leave blank: ""
-  amazon_buy_href: "https://www.amazon.com/dp/YOUR_ASIN_HERE"  # Replace or leave blank: ""
+  amazon_buy_href: "https://www.amazon.com/dp/B0FHSLZT31"  # Replace or leave blank: ""
   amazon_buy_text: "Available On Amazon"  # Replace or leave blank: ""
 
 iliad:
