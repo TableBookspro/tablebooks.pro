@@ -7,21 +7,19 @@ title: American Coffee Table Book
   <article class="single-project">
     <div class="single-project__container container container--size-large">
       <div class="single-project__hero row">
-        <div class="single-project__hero-image col-12 col-md-6 col-lg-7 col-xxl-6">
-          <img src="{{ '/assets/img/american/american-coffee-table-book-1.png' | relative_url }}" width="785"
+        <div class="single-project__hero-image col-12 col-md-6 col-lg-7 col-xxl-8">
+          <img src="{{ '/assets/img/american/american-coffee-table-book-1.png' | relative_url }}"
             alt="project photo">
         </div>
-        <div class="single-project__hero-main col-12 col-md-6 col-lg-5 col-xxl-6 order-md-first">
+        <div class="single-project__hero-main col-12 col-md-6 col-lg-4 col-xxl-4 order-md-first">
           <h1 class="single-project__title" style="line-height: 1.1; display: block;">
             <span style="display: inline-block; width: 50%;">AMERICAN</span>
             <span style="display: inline-block; width: 50%;">COFFEE</span>
             <span style="display: inline-block; width: 50%;">TABLE</span>
-            <span style="display: inline-block; width: 50%;">BOOK</span>
+            <span style="display: inline-block; width: 50%;">BOOK</span><br>
           </h1>
-          <div class="single-project__icon">
-            <svg width="75" height="75">
-              <use xlink:href="#link-arrow"></use>
-            </svg>
+          <div>
+            {% include amazon-sale.html key="american" %}
           </div>
           <div class="single-project__hero-text">
             <strong>WHERE LIBERTY DWELLS, THERE IS MY COUNTRY</strong><br><br>American Coffee Table Book is a salute to
