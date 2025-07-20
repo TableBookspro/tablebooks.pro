@@ -35,7 +35,7 @@ title: About
     <section class="about-section">
       <div class="about-section__container container container--size-large">
         <div class="row g-0">
-          <div class="about-section__main col-12 col-md-6 order-1">
+          <div class="about-section__main col-12 col-md-6">
             <h2 class="about-section__title" data-aos="fade-up">ABOUT</h2>
             <div class="about-section__wrapper">
               <div class="about-section__text" data-aos="fade-up">{{ site.about }}</div>
