@@ -3,7 +3,6 @@ layout: default
 title: About
 ---
 
-<main>
   <article class="desktop-padding">
     <section class="about-section">
       <div class="about-section__container container container--size-large">
@@ -15,9 +14,7 @@ title: About
               <a class="about-section__more arrow-link" href="/contact/" data-aos="fade-up">
                 <span class="arrow-link__text">CONTACT</span>
                 <span class="arrow-link__icon">
-                  <svg width="75" height="75">
-                    <use xlink:href="#link-arrow"></use>
-                  </svg>
+                  <svg width="75" height="75"><use xlink:href="#link-arrow"></use></svg>
                 </span>
               </a>
             </div>
@@ -67,9 +64,7 @@ title: About
             <span class="project-preview__bottom">
               <span class="project-preview__title">American Coffee Table Book</span>
               <span class="project-preview__icon">
-                <svg width="24" height="23">
-                  <use xlink:href="#link-arrow2"></use>
-                </svg>
+                <svg width="24" height="23"><use xlink:href="#link-arrow2"></use></svg>
               </span>
             </span>
           </a>
@@ -83,9 +78,7 @@ title: About
             <span class="project-preview__bottom">
               <span class="project-preview__title">Bitcoin Coffee Table Book</span>
               <span class="project-preview__icon">
-                <svg width="24" height="23">
-                  <use xlink:href="#link-arrow2"></use>
-                </svg>
+                <svg width="24" height="23"><use xlink:href="#link-arrow2"></use></svg>
               </span>
             </span>
           </a>
@@ -99,9 +92,7 @@ title: About
             <span class="project-preview__bottom">
               <span class="project-preview__title">SUN by D.H. Lawrence</span>
               <span class="project-preview__icon">
-                <svg width="24" height="23">
-                  <use xlink:href="#link-arrow2"></use>
-                </svg>
+                <svg width="24" height="23"><use xlink:href="#link-arrow2"></use></svg>
               </span>
             </span>
           </a>
@@ -109,4 +100,3 @@ title: About
       </ul>
     </section>
   </article>
-</main>
