@@ -36,22 +36,22 @@ title: About
       <div class="about-section__container container container--size-large">
         <div class="row g-0">
           <div class="about-section__main col-12 col-md-6">
-            <h2 class="about-section__title" data-aos="fade-up">ABOUT</h2>
             <div class="about-section__wrapper">
               <div class="about-section__text" data-aos="fade-up">{{ site.about }}</div>
-            </div>
-          </div>
-          <div class="about-section__aside col-md-6">
-            <div class="about-section__image" data-aos="fade-up">
-              <img src="/assets/img/founder/eric.jpg" alt="Team">
             </div>
           </div>
           <div class="about-section__steps col-12 col-md-8 order-md-last">
             <ul class="about-section__list" data-aos="fade-up">
               <li class="about-section__item">
-                <span>PUBLISHER: ERIC FREEBURG</span>
+                <span>ERIC FREEBURG</span><br>
+                <span>PRINTER</span><br>
               </li>
             </ul>
+          </div>
+          <div class="about-section__aside col-md-6">
+            <div class="about-section__image" data-aos="fade-up">
+              <img src="/assets/img/founder/eric.jpg" alt="Team">
+            </div>
           </div>
         </div>
       </div>
