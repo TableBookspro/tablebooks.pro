@@ -10920,7 +10920,7 @@ a:hover, a:focus {
   flex-direction: column;
   align-items: flex-start; /* Or 'center' if preferred */
   gap: 10px; /* Space between buttons */
-  max-width: 200px; /* Optional: Constrain width to match typical Prime button size */
+  max-width: 250px; /* Optional: Constrain width to match typical Prime button size */
 }
 
 /* The Buy with Prime button is styled by Amazon's JS, so no custom button CSS here */
