@@ -17,7 +17,7 @@ title: Bitcoin Coffee Table Book
             <span style="display: inline-block; width: 50%;">COFFEE</span>
             <span style="display: inline-block; width: 50%;">TABLE</span>
             <span style="display: inline-block; width: 50%;">BOOK</span><br>
-            <span style="font-size: ; padding-top: 15px;">List Price: $75</span>
+            <span style="font-size: 1.5rem; padding-top: 15px;">List Price: $75</span>
           </h1>
           <div>
             {% include amazon-sale.html %}
