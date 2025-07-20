@@ -8,7 +8,7 @@ title: American Coffee Table Book
     <div class="single-project__container container container--size-large">
       <div class="single-project__hero row">
         <div class="single-project__hero-image col-12 col-md-6 col-lg-7 col-xxl-8">
-          <img src="{{ '/assets/img/american/american-coffee-table-book-1.png' | relative_url }}"
+          <img src="{{ '/assets/img/american/american-coffee-table-book-hero.png' | relative_url }}"
             alt="project photo">
         </div>
         <div class="single-project__hero-main col-12 col-md-6 col-lg-4 col-xxl-4 order-md-first">
