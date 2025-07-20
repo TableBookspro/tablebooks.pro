@@ -3,6 +3,41 @@ layout: default
 title: Bitcoin Coffee Table Book
 ---
 
+<script>
+  // Mock BuyWithPrime SDK for testing
+  window.BuyWithPrime = {
+    Button: {
+      render: function(options) {
+        const element = document.getElementById(options.elementId);
+        if (element) {
+          // Simulate rendering by appending a mock button
+          const mockButton = document.createElement('a');
+          mockButton.href = '#';
+          mockButton.style.backgroundColor = '#00a8e8';
+          mockButton.style.color = '#ffffff';
+          mockButton.style.fontFamily = 'Arial, sans-serif';
+          mockButton.style.fontSize = '16px';
+          mockButton.style.fontWeight = 'bold';
+          mockButton.style.padding = '12px 24px';
+          mockButton.style.borderRadius = '999px';
+          mockButton.style.textDecoration = 'none';
+          mockButton.style.display = 'inline-block';
+          mockButton.textContent = 'Mock Buy with Prime →';
+          element.appendChild(mockButton);
+          
+          const subtext = document.createElement('div');
+          subtext.style.marginTop = '4px';
+          subtext.style.fontSize = '12px';
+          subtext.style.color = '#666666';
+          subtext.style.fontFamily = 'Arial, sans-serif';
+          subtext.textContent = 'Fast, FREE Delivery & Returns ⓘ';
+          element.appendChild(subtext);
+        }
+      }
+    }
+  };
+</script>
+
 <main>
   <article class="single-project">
     <div class="single-project__container container container--size-large">
