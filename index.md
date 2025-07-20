@@ -63,7 +63,7 @@ sitemap:
           <li class="portfolio-section__item __js_masonry-item">
             <a class="project-preview project-preview--elastic project-preview--vertical" href="/books/american/">
               <span class="project-preview__image">
-                <img src="{{ '/assets/img/american/american-coffee-table-book-1.png' | relative_url }}"
+                <img src="{{ '/assets/img/american/american-coffee-table-book-hero.png' | relative_url }}"
                   alt="American Coffee Table Book">
               </span>
               <span class="project-preview__bottom">
