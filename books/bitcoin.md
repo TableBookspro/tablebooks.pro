@@ -7,11 +7,11 @@ title: Bitcoin Coffee Table Book
   <article class="single-project">
     <div class="single-project__container container container--size-large">
       <div class="single-project__hero row">
-        <div class="single-project__hero-image col-12 col-md-6 col-lg-8 col-xxl-6">
+        <div class="single-project__hero-image col-12 col-md-6 col-lg-8 col-xxl-8">
           <img src="{{ '/assets/img/bitcoin/bitcoin-coffee-table-book-hero.jpg' | relative_url }}"
             alt="project photo">
         </div>
-        <div class="single-project__hero-main col-12 col-md-6 col-lg-4 col-xxl-6 order-md-first">
+        <div class="single-project__hero-main col-12 col-md-6 col-lg-4 col-xxl-4 order-md-first">
           <h1 class="single-project__title" style="line-height: 1.1; display: block;">
             <span style="display: inline-block; width: 50%;">BITCOIN</span>
             <span style="display: inline-block; width: 50%;">COFFEE</span>
