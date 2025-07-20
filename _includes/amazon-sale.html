@@ -1,9 +1,12 @@
 {% assign selected_key = include.key | default: "american" %}
 <div class="amazon-buttons-container">
-  <div id="buy-with-prime-button" data-sku="{{ site.data.amazon_button[selected_key].buy_with_prime_sku }}" data-placement-id="{{ site.data.amazon_button[selected_key].buy_with_prime_placement_id }}"></div>
+<div class="placeholder" style="text-align: center; margin-bottom: 10px;">
+    <a href="#" style="background-color: #F7931A; color: #ffffff; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; padding: 12px 24px; border-radius: 999px; text-decoration: none; display: inline-block;">Buy with Prime →</a>
+    <div style="margin-top: 4px; font-size: 12px; color: #666666; font-family: Arial, sans-serif;">Fast, FREE Delivery & Returns ⓘ</div>
+  </div>
   <div class="placeholder" style="text-align: center; margin-bottom: 10px;">
     <a href="#" style="background-color: #00a8e8; color: #ffffff; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; padding: 12px 24px; border-radius: 999px; text-decoration: none; display: inline-block;">Buy with Prime →</a>
     <div style="margin-top: 4px; font-size: 12px; color: #666666; font-family: Arial, sans-serif;">Fast, FREE Delivery & Returns ⓘ</div>
   </div>
-  <a href="{{ site.data.amazon_button[selected_key].amazon_buy_href }}" class="amazon-buy-button">{{ site.data.amazon_button[selected_key].amazon_buy_text }}</a>
+<div id="buy-with-prime-button" data-sku="{{ site.data.amazon_button[selected_key].buy_with_prime_sku }}" data-placement-id="{{ site.data.amazon_button[selected_key].buy_with_prime_placement_id }}"></div>
 </div>
