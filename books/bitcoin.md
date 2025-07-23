@@ -3,6 +3,8 @@ layout: default
 title: Bitcoin Coffee Table Book
 desc_1: |
   <strong>The Code, The Correspondence, and The Paper that started it all.</strong><br><br>On October 31st 2008, the pseudonymous Satoshi Nakamoto published a whitepaper called Bitcoin: A Peer-to-Peer Electronic Cash System.<br><br>Bitcoin Coffee Table Book is a 554 page doorstop showcasing the beginnings of Bitcoin. Elegantly designed so that you can immerse yourself and your living space in the very genesis of the Bitcoin revolution.
+desc_2: |
+  American Coffee Table Book is available through a number of retailers. Please try to buy from Barnes And Noble if possible, it helps us to ensure proper bestseller list placement during this period.
 ---
 
 <main>
@@ -71,8 +73,10 @@ desc_1: |
         <div class="row services-section__main">
           <div class="col-12 col-xxl-3" data-aos="fade-up">
             <div class="services-section__text">
-              American Coffee Table Book is available through a number of retailers. Please try to buy from Barnes And
-              Noble if possible, it helps us to ensure proper bestseller list placement during this period.</div>
+              {% if page.desc_2 %}
+              {{ page.desc_2 }}
+              {% endif %}
+            </div>
           </div>
           <div class="col-12 col-xxl-9 services-section__right">
             <h2 class="services-section__title" data-aos="fade-up">Where To Buy</h2>
