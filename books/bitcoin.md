@@ -57,7 +57,7 @@ desc_3: |
                 <span>
                   <span class="num"></span><strong> Bitcoin Coffee Table Book</strong>
                 </span>
-                <span><strong>$50.00</strong></span>
+                <span><strong>$75.00</strong></span>
               </div>
               <div class="meta__info-item" data-aos="fade-up">
                 <span>
