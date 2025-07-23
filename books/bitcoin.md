@@ -8,6 +8,8 @@ desc_1: |
   <br><br>
   Bitcoin Coffee Table Book is a 500+ page doorstop showcasing the beginnings of Bitcoin. Elegantly designed so that you can immerse yourself and your living space in the very genesis of the Bitcoin revolution.
 desc_2: |
+  <br>
+  <br>
   Beyond its rich content, the book's aesthetic appeal makes it a perfect addition to any living space, turning your coffee table into a hub of knowledge and intrigue. Whether you're a bitcoiner, a design enthusiast, or someone with a penchant for groundbreaking innovations, this volume promises to be a blend of insight and artistry, capturing the essence of Bitcoin's beginnings in a format worthy of its impact.
   <br><br>
   Within Bitcoin Coffee Table Books covers, you will find the groundbreaking codebase that underpins the world's premier cryptocurrency, the historic exchanges that shaped its trajectory, and the seminal paper that heralded a decentralized financial dawn.
