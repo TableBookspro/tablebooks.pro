@@ -3,6 +3,8 @@ american:
   buy_with_prime_placement_id: "YOUR_PLACEMENT_ID_HERE"  # Replace with your Buy with Prime placement ID
   amazon_buy_href: "https://www.amazon.com/dp/YOUR_ASIN_HERE"  # URL for the custom Buy on Amazon button
   amazon_buy_text: "Pre-Order Now"  # Displayed text for the custom button
+  bookshop_link: ""
+  barnes_and_noble: ""
 
 bitcoin:
   buy_with_prime_sku: "YOUR_PRODUCT_SKU_HERE"  # Replace or leave blank: ""

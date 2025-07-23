@@ -4,7 +4,7 @@ title: About
 ---
 
   <article class="desktop-padding">
-    <section class="about-section">
+    <section style="padding-top: 10em;">
       <div class="about-section__container container container--size-large">
         <div class="row g-0">
           <div class="about-section__main col-12 col-md-6 order-1">
