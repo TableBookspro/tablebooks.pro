@@ -134,7 +134,7 @@ title: Bitcoin Coffee Table Book
         </div>
       </section>
       <div class="single-project__next" data-aos="fade-up">
-        <a href="{{ site.data.amazon_sale[bitcoin].amazon_buy_href }}" target="_blank">Buy Now
+        <a href="{{ site.data.amazon_sale.bitcoin.amazon_buy_href }}" target="_blank">Buy Now
           <svg width="104" height="86">
             <use xlink:href="#arrow-right"></use>
           </svg>
