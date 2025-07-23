@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Bitcoin Coffee Table Book
-desc_1: The Code, The Correspondence, and The Paper that started it all On October 31st 2008, the pseudonymous Satoshi Nakamoto published a whitepaper called Bitcoin: A Peer-to-Peer Electronic Cash System.<br><br>Bitcoin Coffee Table Book is a 554 page doorstop showcasing the beginnings of Bitcoin. Elegantly designed so that you can immerse yourself and your living space in the very genesis of the Bitcoin revolution.
+desc_1: |
+  <p>new shit</p>
 ---
 
 <main>
@@ -29,7 +30,7 @@ desc_1: The Code, The Correspondence, and The Paper that started it all On Octob
             the Bitcoin revolution.
           </div>
           {% if page.desc_1 %}
-          <div class="single-project__hero-text">{{ page.desc_1 }}</div>
+          <div>{{ page.desc_1 }}</div>
           {% endif %}
         </div>
       </div>
