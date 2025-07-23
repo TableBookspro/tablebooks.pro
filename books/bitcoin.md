@@ -4,7 +4,9 @@ title: Bitcoin Coffee Table Book
 desc_1: |
   <strong>The Code, The Correspondence, and The Paper that started it all.</strong><br><br>On October 31st 2008, the pseudonymous Satoshi Nakamoto published a whitepaper called Bitcoin: A Peer-to-Peer Electronic Cash System.<br><br>Bitcoin Coffee Table Book is a 554 page doorstop showcasing the beginnings of Bitcoin. Elegantly designed so that you can immerse yourself and your living space in the very genesis of the Bitcoin revolution.
 desc_2: |
-  American Coffee Table Book is available through a number of retailers. Please try to buy from Barnes And Noble if possible, it helps us to ensure proper bestseller list placement during this period.
+  American Coffee Table Book is available through a number of retailers. Please try to buy from Barnes And Noble if possible, it helps us to ensure proper bestseller list placement during this period.<br>American Coffee Table Book is available through a number of retailers. Please try to buy from Barnes And Noble if possible, it helps us to ensure proper bestseller list placement during this period.<br>American Coffee Table Book is available through a number of retailers. Please try to buy from Barnes And Noble if possible, it helps us to ensure proper bestseller list placement during this period.
+desc_3: |
+  Featuring three-sided edge-printing, American Coffee Table Book is simply the most beautiful way to celebrate America... on your coffee table.<br><br><strong>MADE FOR AMERICANS</strong>
 ---
 
 <main>
@@ -125,9 +127,11 @@ desc_2: |
           <div class="col-12 col-md-6">
             <div class="project-other__image project-other__image--small" data-aos="fade-up">
               <img src="{{ '/assets/img/american/american-coffee-table-book-4.jpg' | relative_url }}" alt="">
-              <div class="project-other__text" data-aos="fade-up">Featuring three-sided edge-printing, American Coffee
-                Table Book is simply the most beautiful way to celebrate America... on your coffee table.<br><br>MADE
-                FOR AMERICANS</div>
+              <div class="project-other__text" data-aos="fade-up">
+                {% if page.desc_3 %}
+                {{ page.desc_3 }}
+                {% endif %}
+              </div>
             </div>
           </div>
         </div>
