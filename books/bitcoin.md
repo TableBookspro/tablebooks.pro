@@ -29,115 +29,117 @@ title: Bitcoin Coffee Table Book
           </div>
         </div>
       </div>
-      <!--<section class="meta">
-            <div class="row">
-              <div class="col-12 col-lg-4" data-aos="fade-up">
-                <div class="meta__image">
-                  <img src="{{ '/assets/img/american/3.png' | relative_url }}" alt="">
-                </div>
+      <section class="meta">
+        <div class="row">
+          <div class="col-12 col-lg-4" data-aos="fade-up">
+            <div class="meta__image">
+              <img src="{{ '/assets/img/american/american-coffee-table-book-3.png' | relative_url }}" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-lg-8">
+            <div class="meta__info">
+              <div class="meta__info-item" data-aos="fade-up">
+                <span>
+                  <span class="num"></span> Dimensions
+                </span>
+                <span>8.25" x 10.75"</span>
               </div>
-              <div class="col-12 col-lg-8">
-                <div class="meta__info">
-                  <div class="meta__info-item" data-aos="fade-up">
-                    <span>
-                      <span class="num"></span> Dimensions
-                    </span>
-                    <span>8.25" x 10.75"</span>
-                  </div>
-                  <div class="meta__info-item" data-aos="fade-up">
-                    <span>
-                      <span class="num"></span> Weight
-                    </span>
-                    <span>3.25 lbs</span>
-                  </div>
-                  <div class="meta__info-item" data-aos="fade-up">
-                    <span>
-                      <span class="num"></span> Page Count
-                    </span>
-                    <span>552 Pages</span>
-                  </div>
-                  <div class="meta__info-item" data-aos="fade-up">
-                    <span>
-                      <span class="num"></span> List Price
-                    </span>
-                    <span>$ 50.00</span>
-                  </div>
-                </div>
+              <div class="meta__info-item" data-aos="fade-up">
+                <span>
+                  <span class="num"></span> Weight
+                </span>
+                <span>3.25 lbs</span>
+              </div>
+              <div class="meta__info-item" data-aos="fade-up">
+                <span>
+                  <span class="num"></span> Page Count
+                </span>
+                <span>552 Pages</span>
+              </div>
+              <div class="meta__info-item" data-aos="fade-up">
+                <span>
+                  <span class="num"></span> List Price
+                </span>
+                <span>$ 50.00</span>
               </div>
             </div>
-          </section>
-          <section class="services-section single-project__services">
-            <div class="row services-section__main">
-              <div class="col-12 col-xxl-3" data-aos="fade-up">
-                <div class="services-section__text">
-                  American Coffee Table Book is available through a number of retailers. Please try to buy from Barnes And Noble if possible, it helps us to ensure proper bestseller list placement during this period.</div>
+          </div>
+        </div>
+      </section>
+      <section class="services-section single-project__services">
+        <div class="row services-section__main">
+          <div class="col-12 col-xxl-3" data-aos="fade-up">
+            <div class="services-section__text">
+              American Coffee Table Book is available through a number of retailers. Please try to buy from Barnes And
+              Noble if possible, it helps us to ensure proper bestseller list placement during this period.</div>
+          </div>
+          <div class="col-12 col-xxl-9 services-section__right">
+            <h2 class="services-section__title" data-aos="fade-up">Where To Buy</h2>
+            <div class="services-section__image">
+              <div class="services-section__menu">
+                <ul class="services-section__list">
+                  <li class="services-section__item" data-aos="fade-up">
+                    <a class="services-section__link" href=""><span>
+                        <svg width="24" height="23"><use xlink:href="#link-arrow2"></use></svg>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="services-section__item" data-aos="fade-up">
+                    <a class="services-section__link" href="{{ site.data.amazon_sale[bitcoin].amazon_buy_href }}">Amazon<span>
+                        <svg width="24" height="23">
+                          <use xlink:href="#link-arrow2"></use>
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="services-section__item" data-aos="fade-up">
+                    <a class="services-section__link" href="{{ site.data.amazon_sale[bitcoin].barnes_and_noble }}">Barnes & Noble<span>
+                        <svg width="24" height="23">
+                          <use xlink:href="#link-arrow2"></use>
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="services-section__item" data-aos="fade-up">
+                    <a class="services-section__link" href="{{ site.data.amazon_sale[bitcoin].bookshop_link }}">Local Bookshop<span>
+                        <svg width="24" height="23">
+                          <use xlink:href="#link-arrow2"></use>
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
               </div>
-              <div class="col-12 col-xxl-9 services-section__right">
-                <h2 class="services-section__title" data-aos="fade-up">Where To Buy</h2>
-                <div class="services-section__image">
-                  <div class="services-section__menu">
-                    <ul class="services-section__list">
-                      <li class="services-section__item" data-aos="fade-up">
-                        <a class="services-section__link" href="https://www.ingramspark.com/"><span>
-                            <svg width="24" height="23">
-                              <use xlink:href="#link-arrow2"></use>
-                            </svg>
-                          </span>
-                        </a>
-                      </li>
-                      <li class="services-section__item" data-aos="fade-up">
-                        <a class="services-section__link" href="https://www.barnesandnoble.com/">Amazon<span>
-                            <svg width="24" height="23">
-                              <use xlink:href="#link-arrow2"></use>
-                            </svg>
-                          </span>
-                        </a>
-                      </li>
-                      <li class="services-section__item" data-aos="fade-up">
-                        <a class="services-section__link" href="https://www.amazon.com/">Barnes & Noble<span>
-                            <svg width="24" height="23">
-                              <use xlink:href="#link-arrow2"></use>
-                            </svg>
-                          </span>
-                        </a>
-                      </li>
-                      <li class="services-section__item" data-aos="fade-up">
-                        <a class="services-section__link" href="#">Local Bookshop<span>
-                            <svg width="24" height="23">
-                              <use xlink:href="#link-arrow2"></use>
-                            </svg>
-                          </span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <img src="{{ '/assets/img/picture/single-project/2.jpg' | relative_url }}" width="459" height="642" alt="">
-                </div>
-              </div>
+              <img src="{{ '/assets/img/american/american-coffee-table-book-2.jpg' | relative_url }}" width="459"
+                height="642" alt="">
             </div>
-          </section>
-          <section class="project-other">
-            <div class="row">
-              <div class="col-12 col-md-6">
-                <div class="project-other__image" data-aos="fade-up">
-                  <img src="{{ '/assets/img/picture/single-project/1.jpg' | relative_url }}" alt="">
-                </div>
-              </div>
-              <div class="col-12 col-md-6">
-                <div class="project-other__image project-other__image--small" data-aos="fade-up">
-                  <img src="{{ '/assets/img/picture/single-project/4.jpg' | relative_url }}" alt="">
-                  <div class="project-other__text" data-aos="fade-up">Featuring three-sided edge-printing, American Coffee Table Book is simply the most beautiful way to celebrate America... on your coffee table.<br><br>MADE FOR AMERICANS</div>
-                </div>
-              </div>
+          </div>
+        </div>
+      </section>
+      <section class="project-other">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="project-other__image" data-aos="fade-up">
+              <img src="{{ '/assets/img/american/american-coffee-table-book-1.jpg' | relative_url }}" alt="">
             </div>
-          </section>
-          <div class="single-project__next" data-aos="fade-up">
-            <a href="https://www.amazon.com/" target="_blank">Buy Now
-              <svg width="104" height="86">
-                <use xlink:href="#arrow-right"></use>
-              </svg>
-            </a>
-          </div>-->
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="project-other__image project-other__image--small" data-aos="fade-up">
+              <img src="{{ '/assets/img/american/american-coffee-table-book-4.jpg' | relative_url }}" alt="">
+              <div class="project-other__text" data-aos="fade-up">Featuring three-sided edge-printing, American Coffee
+                Table Book is simply the most beautiful way to celebrate America... on your coffee table.<br><br>MADE
+                FOR AMERICANS</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="single-project__next" data-aos="fade-up">
+        <a href="{{ site.data.amazon_sale[bitcoin].amazon_buy_href }}" target="_blank">Buy Now
+          <svg width="104" height="86">
+            <use xlink:href="#arrow-right"></use>
+          </svg>
+        </a>
+      </div>
     </div>
   </article>
 </main>

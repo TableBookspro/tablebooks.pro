@@ -83,9 +83,7 @@ title: American Coffee Table Book
                 <ul class="services-section__list">
                   <li class="services-section__item" data-aos="fade-up">
                     <a class="services-section__link" href="https://www.ingramspark.com/"><span>
-                        <svg width="24" height="23">
-                          <use xlink:href="#link-arrow2"></use>
-                        </svg>
+                        <svg width="24" height="23"><use xlink:href="#link-arrow2"></use></svg>
                       </span>
                     </a>
                   </li>
@@ -139,7 +137,7 @@ title: American Coffee Table Book
         </div>
       </section>
       <div class="single-project__next" data-aos="fade-up">
-        <a href="https://www.amazon.com/" target="_blank">Buy Now
+        <a href="{{ site.data.amazon_sale[american].amazon_buy_href }}" target="_blank">Buy Now
           <svg width="104" height="86">
             <use xlink:href="#arrow-right"></use>
           </svg>
