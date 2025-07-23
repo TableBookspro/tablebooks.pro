@@ -55,9 +55,9 @@ desc_3: |
             <div class="meta__info">
               <div class="meta__info-item" data-aos="fade-up">
                 <span>
-                  <span class="num"></span><strong> Bitcoin Coffee Table Book</strong>
+                  <span class="num"></span><strong> American Coffee Table Book</strong>
                 </span>
-                <span><strong>$75.00</strong></span>
+                <span><strong>$50.00</strong></span>
               </div>
               <div class="meta__info-item" data-aos="fade-up">
                 <span>
