@@ -85,26 +85,20 @@ title: Bitcoin Coffee Table Book
                     </a>
                   </li>
                   <li class="services-section__item" data-aos="fade-up">
-                    <a class="services-section__link" href="{{ site.data.amazon_sale[bitcoin].amazon_buy_href }}">Amazon<span>
-                        <svg width="24" height="23">
-                          <use xlink:href="#link-arrow2"></use>
-                        </svg>
+                    <a class="services-section__link" href="{{ site.data.amazon_sale.bitcoin.amazon_buy_href }}">Amazon<span>
+                        <svg width="24" height="23"><use xlink:href="#link-arrow2"></use></svg>
                       </span>
                     </a>
                   </li>
                   <li class="services-section__item" data-aos="fade-up">
-                    <a class="services-section__link" href="{{ site.data.amazon_sale[bitcoin].barnes_and_noble }}">Barnes & Noble<span>
-                        <svg width="24" height="23">
-                          <use xlink:href="#link-arrow2"></use>
-                        </svg>
+                    <a class="services-section__link" href="{{ site.data.amazon_sale.bitcoin.barnes_and_noble }}">Barnes & Noble<span>
+                        <svg width="24" height="23"><use xlink:href="#link-arrow2"></use></svg>
                       </span>
                     </a>
                   </li>
                   <li class="services-section__item" data-aos="fade-up">
-                    <a class="services-section__link" href="{{ site.data.amazon_sale[bitcoin].bookshop_link }}">Local Bookshop<span>
-                        <svg width="24" height="23">
-                          <use xlink:href="#link-arrow2"></use>
-                        </svg>
+                    <a class="services-section__link" href="{{ site.data.amazon_sale.bitcoin.bookshop_link }}">Local Bookshop<span>
+                        <svg width="24" height="23"><use xlink:href="#link-arrow2"></use></svg>
                       </span>
                     </a>
                   </li>
@@ -135,9 +129,7 @@ title: Bitcoin Coffee Table Book
       </section>
       <div class="single-project__next" data-aos="fade-up">
         <a href="{{ site.data.amazon_sale.bitcoin.amazon_buy_href }}" target="_blank">Buy Now
-          <svg width="104" height="86">
-            <use xlink:href="#arrow-right"></use>
-          </svg>
+          <svg width="104" height="86"><use xlink:href="#arrow-right"></use></svg>
         </a>
       </div>
     </div>
