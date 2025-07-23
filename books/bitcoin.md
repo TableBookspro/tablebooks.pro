@@ -4,17 +4,19 @@ title: Bitcoin Coffee Table Book
 desc_1: |
   <strong>The Code, The Correspondence, and The Paper that started it all.</strong>
   <br><br>
-  On October 31st 2008, the pseudonymous Satoshi Nakamoto published a whitepaper called Bitcoin: A Peer-to-Peer Electronic Cash System.<br><br>Bitcoin Coffee Table Book is a 500+ page doorstop showcasing the beginnings of Bitcoin. Elegantly designed so that you can immerse yourself and your living space in the very genesis of the Bitcoin revolution.
+  On October 31st 2008, the pseudonymous Satoshi Nakamoto published a whitepaper called Bitcoin: A Peer-to-Peer Electronic Cash System.
+  <br><br>
+  Bitcoin Coffee Table Book is a 500+ page doorstop showcasing the beginnings of Bitcoin. Elegantly designed so that you can immerse yourself and your living space in the very genesis of the Bitcoin revolution.
 desc_2: |
-  American Coffee Table Book is available through a number of retailers. Please try to buy from Barnes And Noble if possible, it helps us to ensure proper bestseller list placement during this period.
+  Beyond its rich content, the book's aesthetic appeal makes it a perfect addition to any living space, turning your coffee table into a hub of knowledge and intrigue. Whether you're a bitcoiner, a design enthusiast, or someone with a penchant for groundbreaking innovations, this volume promises to be a blend of insight and artistry, capturing the essence of Bitcoin's beginnings in a format worthy of its impact.
   <br><br>
-  American Coffee Table Book is available through a number of retailers. Please try to buy from Barnes And Noble if possible, it helps us to ensure proper bestseller list placement during this period.
+  Within Bitcoin Coffee Table Books covers, you will find the groundbreaking codebase that underpins the world's premier cryptocurrency, the historic exchanges that shaped its trajectory, and the seminal paper that heralded a decentralized financial dawn.
   <br><br>
-  American Coffee Table Book is available through a number of retailers. Please try to buy from Barnes And Noble if possible, it helps us to ensure proper bestseller list placement during this period.
+  Bitcoin Coffee Table Book is available for order through a number of retailers if Amazon is not your cup of tea. Please support your local bookstore, they will order the book for you if requested.
 desc_3: |
-  Featuring three-sided edge-printing, American Coffee Table Book is simply the most beautiful way to celebrate America... on your coffee table.
+  Featuring colorful edge-printing, Bitcoin Coffee Table Book is simply the most beautiful way to celebrate Bitcoin... on your coffee table.
   <br><br>
-  <strong>MADE FOR AMERICANS</strong>
+  <strong>MADE FOR BITCOINERS</strong>
 ---
 
 <main>
