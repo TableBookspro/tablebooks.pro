@@ -81,7 +81,7 @@ desc_3: |
                 <span>
                   <span class="num"></span> ISBN
                 </span>
-                <span>979-8-9875701-5-9</span>
+                <span>979-8-9875701-4-2</span>
               </div>
             </div>
           </div>
