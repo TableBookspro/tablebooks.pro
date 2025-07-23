@@ -53,7 +53,7 @@ desc_3: |
             <div class="meta__info">
               <div class="meta__info-item" data-aos="fade-up">
                 <span>
-                  <span class="num"></span><strong>Bitcoin Coffee Table Book</strong>
+                  <span class="num"></span><strong> Bitcoin Coffee Table Book</strong>
                 </span>
                 <span>$ 50.00</span>
               </div>
@@ -61,7 +61,7 @@ desc_3: |
                 <span>
                   <span class="num"></span> Dimensions
                 </span>
-                <span>8.25" x 10.75"</span>
+                <span>8.25" x 1.19" x 10.75"</span>
               </div>
               <div class="meta__info-item" data-aos="fade-up">
                 <span>
@@ -74,6 +74,12 @@ desc_3: |
                   <span class="num"></span> Page Count
                 </span>
                 <span>552 Pages</span>
+              </div>
+              <div class="meta__info-item" data-aos="fade-up">
+                <span>
+                  <span class="num"></span> ISBN
+                </span>
+                <span>979-8987570159</span>
               </div>
             </div>
           </div>
