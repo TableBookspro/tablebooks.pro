@@ -1,34 +1,46 @@
 ---
 layout: default
 title: American Coffee Table Book
+desc_1: |
+  <strong>WHERE LIBERTY DWELLS, THERE IS MY COUNTRY</strong>
+  <br><br>
+  American Coffee Table Book is a salute to America on her 250th anniversary. 500+ pages covering 101 years of America from 1722 - 1823.
+  <br><br>
+  An elegantly crafted coffee table book for display. Immerse yourself in the very genesis of the American Revolution. This stunning book showcases America's founding documents through bold, black-and-white stylization inside.<br><br>This elegant hardback combines the timeless words of our founders with original introduction, preface, and editor’s notes offering a fresh perspective on the our country’s cornerstone texts.
+desc_2: |
+  Beyond its rich content, the book's aesthetic appeal makes it a perfect addition to any living space, turning your coffee table into a hub of knowledge and intrigue. Whether you're a bitcoiner, a design enthusiast, or someone with a penchant for groundbreaking innovations, this volume promises to be a blend of insight and artistry, capturing the essence of Bitcoin's beginnings in a format worthy of its impact.
+  <br><br>
+  Within Bitcoin Coffee Table Books covers, you will find the groundbreaking codebase that underpins the world's premier cryptocurrency, the historic exchanges that shaped its trajectory, and the seminal paper that heralded a decentralized financial dawn.
+  <br><br>
+  American Coffee Table Book is available for order through a number of retailers if Amazon is not your cup of tea. Please support your local bookstore, they will order the book for you if requested.
+desc_3: |
+  Featuring three-sided edge-printing, American Coffee Table Book is simply the most beautiful way to celebrate America... on your coffee table.
+  <br><br>
+  <strong>MADE FOR AMERICANS</strong>
 ---
 
 <main>
   <article class="single-project">
     <div class="single-project__container container container--size-large">
       <div class="single-project__hero row">
-        <div class="single-project__hero-image col-12 col-md-6 col-lg-7 col-xxl-8">
+        <div class="single-project__hero-image col-12 col-md-6 col-lg-8 col-xxl-8">
           <img src="{{ '/assets/img/american/american-coffee-table-book-hero.png' | relative_url }}"
             alt="project photo">
         </div>
         <div class="single-project__hero-main col-12 col-md-6 col-lg-4 col-xxl-4 order-md-first">
           <h1 class="single-project__title" style="line-height: 1.1; display: block;">
-            <span style="display: inline-block; width: 50%;">AMERICAN</span>
+            <span style="display: inline-block; width: 50%;">BITCOIN</span>
             <span style="display: inline-block; width: 50%;">COFFEE</span>
             <span style="display: inline-block; width: 50%;">TABLE</span>
             <span style="display: inline-block; width: 50%;">BOOK</span><br>
           </h1>
           <div>
-            {% include amazon-sale.html key="american" %}
+            {% include amazon-sale.html %}
           </div>
           <div class="single-project__hero-text">
-            <strong>WHERE LIBERTY DWELLS, THERE IS MY COUNTRY</strong><br><br>American Coffee Table Book is a salute to
-            America on her 250th anniversary. 500+ pages covering 101 years of America from 1722 - 1823.<br><br>An
-            elegantly crafted coffee table book for display. Immerse yourself in the very genesis of the American
-            Revolution. This stunning book showcases America's founding documents through bold, black-and-white
-            stylization inside.<br><br>This elegant hardback combines the timeless words of our founders with original
-            introduction, preface, and editor’s notes offering a fresh perspective on the our country’s cornerstone
-            texts.<br><br>
+            {% if page.desc_1 %}
+            {{ page.desc_1 }}
+            {% endif %}
           </div>
         </div>
       </div>
@@ -36,22 +48,16 @@ title: American Coffee Table Book
         <div class="row">
           <div class="col-12 col-lg-4" data-aos="fade-up">
             <div class="meta__image">
-              <img src="{{ '/assets/img/american/american-coffee-table-book-3.png' | relative_url }}" alt="">
+              <img src="{{ '/assets/img/bamerican/american-coffee-table-book-3.png' | relative_url }}" alt="">
             </div>
           </div>
           <div class="col-12 col-lg-8">
             <div class="meta__info">
               <div class="meta__info-item" data-aos="fade-up">
                 <span>
-                  <span class="num"></span> Dimensions
+                  <span class="num"></span><strong> Bitcoin Coffee Table Book</strong>
                 </span>
-                <span>8.25" x 10.75"</span>
-              </div>
-              <div class="meta__info-item" data-aos="fade-up">
-                <span>
-                  <span class="num"></span> Weight
-                </span>
-                <span>3.25 lbs</span>
+                <span><strong>$75.00</strong></span>
               </div>
               <div class="meta__info-item" data-aos="fade-up">
                 <span>
@@ -61,9 +67,21 @@ title: American Coffee Table Book
               </div>
               <div class="meta__info-item" data-aos="fade-up">
                 <span>
-                  <span class="num"></span> List Price
+                  <span class="num"></span> Dimensions
                 </span>
-                <span>$ 50.00</span>
+                <span>8.25" x 1.19" x 10.75"</span>
+              </div>
+              <div class="meta__info-item" data-aos="fade-up">
+                <span>
+                  <span class="num"></span> Weight
+                </span>
+                <span>3.25 lbs</span>
+              </div>
+              <div class="meta__info-item" data-aos="fade-up">
+                <span>
+                  <span class="num"></span> ISBN
+                </span>
+                <span>979-8-9875701-5-9</span>
               </div>
             </div>
           </div>
@@ -73,8 +91,10 @@ title: American Coffee Table Book
         <div class="row services-section__main">
           <div class="col-12 col-xxl-3" data-aos="fade-up">
             <div class="services-section__text">
-              American Coffee Table Book is available through a number of retailers. Please try to buy from Barnes And
-              Noble if possible, it helps us to ensure proper bestseller list placement during this period.</div>
+              {% if page.desc_2 %}
+              {{ page.desc_2 }}
+              {% endif %}
+            </div>
           </div>
           <div class="col-12 col-xxl-9 services-section__right">
             <h2 class="services-section__title" data-aos="fade-up">Where To Buy</h2>
@@ -82,32 +102,26 @@ title: American Coffee Table Book
               <div class="services-section__menu">
                 <ul class="services-section__list">
                   <li class="services-section__item" data-aos="fade-up">
-                    <a class="services-section__link" href="https://www.ingramspark.com/"><span>
+                    <a class="services-section__link" href=""><span>
                         <svg width="24" height="23"><use xlink:href="#link-arrow2"></use></svg>
                       </span>
                     </a>
                   </li>
                   <li class="services-section__item" data-aos="fade-up">
-                    <a class="services-section__link" href="https://www.barnesandnoble.com/">Amazon<span>
-                        <svg width="24" height="23">
-                          <use xlink:href="#link-arrow2"></use>
-                        </svg>
+                    <a class="services-section__link" href="{{ site.data.amazon_sale.bitcoin.amazon_buy_href }}">Amazon<span>
+                        <svg width="24" height="23"><use xlink:href="#link-arrow2"></use></svg>
                       </span>
                     </a>
                   </li>
                   <li class="services-section__item" data-aos="fade-up">
-                    <a class="services-section__link" href="https://www.amazon.com/">Barnes & Noble<span>
-                        <svg width="24" height="23">
-                          <use xlink:href="#link-arrow2"></use>
-                        </svg>
+                    <a class="services-section__link" href="{{ site.data.amazon_sale.bitcoin.barnes_and_noble }}">Barnes & Noble<span>
+                        <svg width="24" height="23"><use xlink:href="#link-arrow2"></use></svg>
                       </span>
                     </a>
                   </li>
                   <li class="services-section__item" data-aos="fade-up">
-                    <a class="services-section__link" href="#">Local Bookshop<span>
-                        <svg width="24" height="23">
-                          <use xlink:href="#link-arrow2"></use>
-                        </svg>
+                    <a class="services-section__link" href="{{ site.data.amazon_sale.bitcoin.bookshop_link }}">Local Bookshop<span>
+                        <svg width="24" height="23"><use xlink:href="#link-arrow2"></use></svg>
                       </span>
                     </a>
                   </li>
@@ -129,18 +143,18 @@ title: American Coffee Table Book
           <div class="col-12 col-md-6">
             <div class="project-other__image project-other__image--small" data-aos="fade-up">
               <img src="{{ '/assets/img/american/american-coffee-table-book-4.jpg' | relative_url }}" alt="">
-              <div class="project-other__text" data-aos="fade-up">Featuring three-sided edge-printing, American Coffee
-                Table Book is simply the most beautiful way to celebrate America... on your coffee table.<br><br>MADE
-                FOR AMERICANS</div>
+              <div class="project-other__text" data-aos="fade-up">
+                {% if page.desc_3 %}
+                {{ page.desc_3 }}
+                {% endif %}
+              </div>
             </div>
           </div>
         </div>
       </section>
       <div class="single-project__next" data-aos="fade-up">
-        <a href="{{ site.data.amazon_sale[american].amazon_buy_href }}" target="_blank">Buy Now
-          <svg width="104" height="86">
-            <use xlink:href="#arrow-right"></use>
-          </svg>
+        <a href="{{ site.data.amazon_sale.bitcoin.amazon_buy_href }}" target="_blank">Buy Now
+          <svg width="104" height="86"><use xlink:href="#arrow-right"></use></svg>
         </a>
       </div>
     </div>
