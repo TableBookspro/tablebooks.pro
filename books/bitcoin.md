@@ -137,12 +137,12 @@ desc_3: |
         <div class="row">
           <div class="col-12 col-md-6">
             <div class="project-other__image" data-aos="fade-up">
-              <img src="{{ '/assets/img/american/american-coffee-table-book-1.jpg' | relative_url }}" alt="">
+              <img src="{{ '/assets/img/american/bitcoin-coffee-table-book-2.jpg' | relative_url }}" alt="">
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="project-other__image project-other__image--small" data-aos="fade-up">
-              <img src="{{ '/assets/img/american/american-coffee-table-book-4.jpg' | relative_url }}" alt="">
+              <img src="{{ '/assets/img/american/bitcoin-coffee-table-book-3.jpg' | relative_url }}" alt="">
               <div class="project-other__text" data-aos="fade-up">
                 {% if page.desc_3 %}
                 {{ page.desc_3 }}
