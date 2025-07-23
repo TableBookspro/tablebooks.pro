@@ -24,7 +24,7 @@ desc_3: |
     <div class="single-project__container container container--size-large">
       <div class="single-project__hero row">
         <div class="single-project__hero-image col-12 col-md-6 col-lg-8 col-xxl-8">
-          <img src="{{ '/assets/img/american/american-coffee-table-book-hero.png' | relative_url }}"
+          <img src="{{ '/assets/img/american/american-coffee-table-book-3.png' | relative_url }}"
             alt="project photo">
         </div>
         <div class="single-project__hero-main col-12 col-md-6 col-lg-4 col-xxl-4 order-md-first">
@@ -48,7 +48,7 @@ desc_3: |
         <div class="row">
           <div class="col-12 col-lg-4" data-aos="fade-up">
             <div class="meta__image">
-              <img src="{{ '/assets/img/american/american-coffee-table-book-3.png' | relative_url }}" alt="">
+              <img src="{{ '/assets/img/american/american-coffee-table-book-1.png' | relative_url }}" alt="">
             </div>
           </div>
           <div class="col-12 col-lg-8">
