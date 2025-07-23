@@ -12,7 +12,9 @@ desc_2: |
   <br><br>
   American Coffee Table Book is available through a number of retailers. Please try to buy from Barnes And Noble if possible, it helps us to ensure proper bestseller list placement during this period.
 desc_3: |
-  Featuring three-sided edge-printing, American Coffee Table Book is simply the most beautiful way to celebrate America... on your coffee table.<br><br><strong>MADE FOR AMERICANS</strong>
+  Featuring three-sided edge-printing, American Coffee Table Book is simply the most beautiful way to celebrate America... on your coffee table.
+  <br><br>
+  <strong>MADE FOR AMERICANS</strong>
 ---
 
 <main>
@@ -44,7 +46,7 @@ desc_3: |
         <div class="row">
           <div class="col-12 col-lg-4" data-aos="fade-up">
             <div class="meta__image">
-              <img src="{{ '/assets/img/american/american-coffee-table-book-3.png' | relative_url }}" alt="">
+              <img src="{{ '/assets/img/american/american-coffee-table-book-hero.png' | relative_url }}" alt="">
             </div>
           </div>
           <div class="col-12 col-lg-8">
