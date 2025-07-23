@@ -35,7 +35,7 @@ desc_3: |
             <span style="display: inline-block; width: 50%;">BOOK</span><br>
           </h1>
           <div>
-            {% include amazon-sale.html %}
+            {% include amazon-sale-bitcoin.html %}
           </div>
           <div class="single-project__hero-text">
             {% if page.desc_1 %}
