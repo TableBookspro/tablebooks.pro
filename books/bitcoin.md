@@ -55,7 +55,13 @@ desc_3: |
                 <span>
                   <span class="num"></span><strong> Bitcoin Coffee Table Book</strong>
                 </span>
-                <span>$ 50.00</span>
+                <span>List Price: $50.00</span>
+              </div>
+              <div class="meta__info-item" data-aos="fade-up">
+                <span>
+                  <span class="num"></span> Page Count
+                </span>
+                <span>552 Pages</span>
               </div>
               <div class="meta__info-item" data-aos="fade-up">
                 <span>
@@ -71,15 +77,9 @@ desc_3: |
               </div>
               <div class="meta__info-item" data-aos="fade-up">
                 <span>
-                  <span class="num"></span> Page Count
-                </span>
-                <span>552 Pages</span>
-              </div>
-              <div class="meta__info-item" data-aos="fade-up">
-                <span>
                   <span class="num"></span> ISBN
                 </span>
-                <span>979-8987570159</span>
+                <span>979-8-9875701-5-9</span>
               </div>
             </div>
           </div>
