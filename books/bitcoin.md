@@ -55,7 +55,7 @@ desc_3: |
                 <span>
                   <span class="num"></span><strong> Bitcoin Coffee Table Book</strong>
                 </span>
-                <span>List Price: $50.00</span>
+                <span><strong>$50.00</strong></span>
               </div>
               <div class="meta__info-item" data-aos="fade-up">
                 <span>
