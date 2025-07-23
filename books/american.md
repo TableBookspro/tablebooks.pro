@@ -48,7 +48,7 @@ desc_3: |
         <div class="row">
           <div class="col-12 col-lg-4" data-aos="fade-up">
             <div class="meta__image">
-              <img src="{{ '/assets/img/bamerican/american-coffee-table-book-3.png' | relative_url }}" alt="">
+              <img src="{{ '/assets/img/american/american-coffee-table-book-3.png' | relative_url }}" alt="">
             </div>
           </div>
           <div class="col-12 col-lg-8">
