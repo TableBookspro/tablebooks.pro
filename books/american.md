@@ -29,7 +29,7 @@ desc_3: |
         </div>
         <div class="single-project__hero-main col-12 col-md-6 col-lg-4 col-xxl-4 order-md-first">
           <h1 class="single-project__title" style="line-height: 1.1; display: block;">
-            <span style="display: inline-block; width: 50%;">BITCOIN</span>
+            <span style="display: inline-block; width: 50%;">AMERICAN</span>
             <span style="display: inline-block; width: 50%;">COFFEE</span>
             <span style="display: inline-block; width: 50%;">TABLE</span>
             <span style="display: inline-block; width: 50%;">BOOK</span><br>
@@ -108,19 +108,19 @@ desc_3: |
                     </a>
                   </li>
                   <li class="services-section__item" data-aos="fade-up">
-                    <a class="services-section__link" href="{{ site.data.amazon_sale.bitcoin.amazon_buy_href }}">Amazon<span>
+                    <a class="services-section__link" href="{{ site.data.amazon_sale.american.amazon_buy_href }}">Amazon<span>
                         <svg width="24" height="23"><use xlink:href="#link-arrow2"></use></svg>
                       </span>
                     </a>
                   </li>
                   <li class="services-section__item" data-aos="fade-up">
-                    <a class="services-section__link" href="{{ site.data.amazon_sale.bitcoin.barnes_and_noble }}">Barnes & Noble<span>
+                    <a class="services-section__link" href="{{ site.data.amazon_sale.american.barnes_and_noble }}">Barnes & Noble<span>
                         <svg width="24" height="23"><use xlink:href="#link-arrow2"></use></svg>
                       </span>
                     </a>
                   </li>
                   <li class="services-section__item" data-aos="fade-up">
-                    <a class="services-section__link" href="{{ site.data.amazon_sale.bitcoin.bookshop_link }}">Local Bookshop<span>
+                    <a class="services-section__link" href="{{ site.data.amazon_sale.american.bookshop_link }}">Local Bookshop<span>
                         <svg width="24" height="23"><use xlink:href="#link-arrow2"></use></svg>
                       </span>
                     </a>
@@ -153,7 +153,7 @@ desc_3: |
         </div>
       </section>
       <div class="single-project__next" data-aos="fade-up">
-        <a href="{{ site.data.amazon_sale.bitcoin.amazon_buy_href }}" target="_blank">Buy Now
+        <a href="{{ site.data.amazon_sale.american.amazon_buy_href }}" target="_blank">Buy Now
           <svg width="104" height="86"><use xlink:href="#arrow-right"></use></svg>
         </a>
       </div>
