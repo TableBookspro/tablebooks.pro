@@ -28,7 +28,9 @@ desc_1: The Code, The Correspondence, and The Paper that started it all.</strong
             Bitcoin. Elegantly designed so that you can immerse yourself and your living space in the very genesis of
             the Bitcoin revolution.
           </div>
+          {% if page.desc_1 %}
           <div class="single-project__hero-text">{{ page.desc_1 }}</div>
+          {% endif %}
         </div>
       </div>
       <section class="meta">
