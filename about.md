@@ -33,7 +33,7 @@ title: About
       <div class="about-section__container container container--size-large">
         <div class="row g-0">
           <div class="about-section__main col-12 col-md-6">
-            <h2 class="about-section__title" data-aos="fade-up">ERIC FREEBURG<br><span style="font-size: .7rem;">PRINTER</span></h2>
+            <h2 class="about-section__title" data-aos="fade-up">ERIC FREEBURG<br><span style="font-size: .6em;">PRINTER</span></h2>
             <div class="about-section__wrapper">
               <div class="about-section__text" data-aos="fade-up">{{ site.about }}</div>
             </div>
