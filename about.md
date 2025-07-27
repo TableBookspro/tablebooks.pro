@@ -22,8 +22,8 @@ title: About
         <div class="col-12 col-md-2">
         </div>
         <div class="about-section__aside col-12 col-md-4">
-          <div class="about-section__image" data-aos="fade-up">
-            <img src="/assets/img/logo/table-book-logo.png" alt="Team">
+          <div class="about-section__image ratio ratio-1x1"" data-aos="fade-up">
+            <img src="/assets/img/logo/table-book-logo.png" alt="TABLE books pro Logo">
           </div>
         </div>
       </div>
