@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Terms of Service
+sitemap: false
 ---
 <!--Terms of Service-->
 

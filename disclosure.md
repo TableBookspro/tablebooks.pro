@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Affiliate Disclosure
+sitemap: false
 ---
 
 # Amazon Brand Referral Bonus Program

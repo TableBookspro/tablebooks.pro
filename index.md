@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Homepage
-sitemap:
-  priority: 0.9
 ---
 
 <style>
