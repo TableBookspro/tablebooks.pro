@@ -19,12 +19,12 @@ title: About
             </a>
           </div>
         </div>
-        <div class="about-section__aside col-md-6">
+        <div class="col-12 col-md-2">
+        </div>
+        <div class="about-section__aside col-12 col-md-4">
           <div class="about-section__image" data-aos="fade-up">
             <img src="/assets/img/logo/table-book-logo.png" alt="Team">
           </div>
-        </div>
-        <div class="about-section__steps col-12 col-md-8 order-md-last">
         </div>
       </div>
     </div>
