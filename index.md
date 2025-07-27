@@ -1,6 +1,6 @@
 ---
 layout: default
-title: TABLE books pro
+title: Homepage
 sitemap:
   priority: 0.9
 ---
