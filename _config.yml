@@ -11,7 +11,7 @@ about: "My name is Eric Freeburg. I am a thirty-something American based out of 
 
 # SEO, OG, Etc.
 jekyll-seo-tag:
-  static_image: /assets/img/logo/table-book-og-logo.jpg
+  static_image: ""
 
 defaults:
   - scope:

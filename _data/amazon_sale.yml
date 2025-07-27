@@ -1,11 +1,3 @@
-american:
-  buy_with_prime_sku: "YOUR_PRODUCT_SKU_HERE"  # Replace with your Buy with Prime SKU
-  buy_with_prime_placement_id: "YOUR_PLACEMENT_ID_HERE"  # Replace with your Buy with Prime placement ID
-  amazon_buy_href: "https://www.amazon.com/dp/YOUR_ASIN_HERE"  # URL for the custom Buy on Amazon button
-  amazon_buy_text: "Pre-Order Now"  # Displayed text for the custom button
-  bookshop_link: ""
-  barnes_and_noble: ""
-
 bitcoin:
   buy_with_prime_sku: "YOUR_PRODUCT_SKU_HERE"  # Replace or leave blank: ""
   buy_with_prime_placement_id: "YOUR_PLACEMENT_ID_HERE"  # Replace or leave blank: ""
@@ -13,6 +5,14 @@ bitcoin:
   amazon_buy_text: "Purchase On Amazon"  # Replace or leave blank: ""
   bookshop_link: "https://bookshop.org/p/books/bitcoin-coffee-table-book/6ce7d805fbdaae28?ean=9798987570159&next=t"
   barnes_and_noble: "https://www.barnesandnoble.com/w/bitcoin-coffee-table-book-eric-freeburg/1147841752?ean=9798987570159"
+
+american:
+  buy_with_prime_sku: "YOUR_PRODUCT_SKU_HERE"  # Replace with your Buy with Prime SKU
+  buy_with_prime_placement_id: "YOUR_PLACEMENT_ID_HERE"  # Replace with your Buy with Prime placement ID
+  amazon_buy_href: "https://www.amazon.com/dp/YOUR_ASIN_HERE"  # URL for the custom Buy on Amazon button
+  amazon_buy_text: "Pre-Order Now"  # Displayed text for the custom button
+  bookshop_link: ""
+  barnes_and_noble: ""
 
 iliad:
   buy_with_prime_sku: "YOUR_PRODUCT_SKU_HERE"  # Replace or leave blank: ""
