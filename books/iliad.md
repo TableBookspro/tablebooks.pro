@@ -29,13 +29,13 @@ desc_3: |
         </div>
         <div class="single-project__hero-main col-12 col-md-6 col-lg-4 col-xxl-4 order-md-first">
           <h1 class="single-project__title" style="line-height: 1.1; display: block;">
-            <span style="display: inline-block; width: 50%;">BITCOIN</span>
+            <span style="display: inline-block; width: 50%;">ILIAD</span>
             <span style="display: inline-block; width: 50%;">COFFEE</span>
             <span style="display: inline-block; width: 50%;">TABLE</span>
             <span style="display: inline-block; width: 50%;">BOOK</span><br>
           </h1>
           <div>
-            {% include amazon-sale-bitcoin.html %}
+            {% include amazon-sale-iliad.html %}
           </div>
           <div class="single-project__hero-text">
             {% if page.desc_1 %}
@@ -55,9 +55,9 @@ desc_3: |
             <div class="meta__info">
               <div class="meta__info-item" data-aos="fade-up">
                 <span>
-                  <span class="num"></span><strong> Bitcoin Coffee Table Book</strong>
+                  <span class="num"></span><strong> Iliad Coffee Table Book</strong>
                 </span>
-                <span><strong>$75.00</strong></span>
+                <span><strong>$50.00</strong></span>
               </div>
               <div class="meta__info-item" data-aos="fade-up">
                 <span>
