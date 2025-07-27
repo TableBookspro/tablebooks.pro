@@ -9429,7 +9429,7 @@ a:hover, a:focus {
 @media (min-width: 1400px) {
   .single-project__services .services-section__text {
     /*padding-bottom: 161px;*/
-    padding-bottom: 70px;
+    padding-bottom: 40px;
   }
 }
 
