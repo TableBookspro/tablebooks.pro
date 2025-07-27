@@ -23,7 +23,7 @@ title: About
         </div>
         <div class="about-section__aside col-12 col-md-4">
           <div class="about-section__image" data-aos="fade-up">
-            <img src="/assets/img/logo/table-book-logo.png" alt="TABLE books pro Logo">
+            <img src="/assets/img/logo/table-book-logo.png" alt="TABLE books pro Logo" style="width: auto; height: auto;">
           </div>
         </div>
       </div>
