@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-<article class="desktop-padding">
+<article class="">
   <section style="padding-top: 10em;">
     <div class="about-section__container container container--size-large">
       <div class="row g-0">
