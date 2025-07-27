@@ -13,7 +13,6 @@ sitemap:
     }
   </style>
 
-
 <article class="desktop-padding">
   <section class="creative-hero__container container container--size-large">
     <div class="row d-flex align-items-center col-md-4">
@@ -42,25 +41,15 @@ sitemap:
       </div>
     </div>
   </section>
-  <div class="col-md-8" style="height: 1px;"></div>
   {% include the-books.html %}
-  <section class="tooltip tooltip--theme-light">
+  <section class="tooltip--theme-light">
     <div class="tooltip__container container container--size-large">
       <div class="tooltip__section">
         <div class="tooltip__marquee __js-marquee">
           <div class="tooltip__list">
             <a class="tooltip__item animsition-link" href="/books/bitcoin/">Bitcoin Coffee Table Book</a>
             <a class="tooltip__item animsition-link" href="/books/american/">American Coffee Table Book</a>
-            <a class="tooltip__item animsition-link" href="/books/sun/">SUN by D.H. Lawrence</a>
-          </div>
-        </div>
-      </div>
-      <div class="tooltip__section">
-        <div class="tooltip__marquee __js-marquee--reverse">
-          <div class="tooltip__list">
-            <a class="tooltip__item animsition-link" href="/books/sun/">SUN by D.H. Lawrence</a>
-            <a class="tooltip__item animsition-link" href="/books/bitcoin/">Bitcoin Coffee Table Book</a>
-            <a class="tooltip__item animsition-link" href="/books/american/">American Coffee Table Book</a>
+            <a class="tooltip__item animsition-link" href="/books/iliad/">Iliad Coffee Table Book</a>
           </div>
         </div>
       </div>
