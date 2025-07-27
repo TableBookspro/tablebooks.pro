@@ -1,7 +1,7 @@
 # Site settings
 title: "TABLE books pro"
 
-description: "TABLE books pro is an independent publisher of edge-printed coffee table books, slim volumes, and unique monographs. We believe that the books that decorate our tables should be beautiful. We began by publishing the Bitcoin Coffee Table Book but we have since expanded into more offerings. Our guiding principle is that you <strong>should</strong> judge a book by it's cover.<br><br>"
+description: "TABLE books pro is an independent publisher of edge-printed coffee table books, slim volumes, and unique monographs. We believe that the books that decorate our tables should be beautiful. We began by publishing the Bitcoin Coffee Table Book but we have since expanded into more offerings. Our guiding principle is that you <strong>should</strong> judge a book by it's cover."
 
 url: "https://tablebooks.pro"
 baseurl: ""
@@ -11,7 +11,7 @@ lang: "en-US"
 timezone: "America/New_York"
 date_format: "%b %-d, %Y"
 
-about: "In truth, I am just a designer, editor, and publisher who wears all those hats and more as the founder of TABLE books pro. But Ben Franklin thought of himself as a printer above all else and I want to ape his spirit. The printed word will always reign supreme. These coffee table books aspire to fuse art, technology, and profound ideas."
+about: "In truth, I am not the printer of these books. Hard-working Americans in factories manufacture these books. I am just the designer, editor, and publisher. However, Ben Franklin thought of himself as a printer above all else and I want to honor his legacy in my own small way. The printed word will always reign supreme, particularly in America. These coffee table books aspire to fuse art, technology, and profound ideas."
 
 # SEO, OG, Etc.
 jekyll-seo-tag:
