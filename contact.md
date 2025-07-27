@@ -4,7 +4,7 @@ title: Contact
 sitemap: true
 ---
 
-<article class="contact">
+<article class="">
   <section class="contact-section">
     <div class="contact-section__container container container--size-large">
       <div class="row">
