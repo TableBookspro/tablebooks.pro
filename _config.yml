@@ -17,7 +17,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/img/logo/table-book-og-logo.jpg
+      image: ""
 
 # Social profiles (optional, for social meta tags)
 twitter:
