@@ -102,10 +102,9 @@ desc_3: |
               <div class="services-section__menu">
                 <ul class="services-section__list">
                   <li class="services-section__item" data-aos="fade-up">
-                    <a class="services-section__link" href=""><span>
-                        <svg width="24" height="23"><use xlink:href="#link-arrow2"></use></svg>
+                    <span class="services-section__link"><span>
                       </span>
-                    </a>
+                    </span>
                   </li>
                   <li class="services-section__item" data-aos="fade-up">
                     <a class="services-section__link" href="{{ site.data.amazon_sale.bitcoin.amazon_buy_href }}">Amazon<span>
