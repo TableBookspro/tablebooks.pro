@@ -44,15 +44,6 @@ sitemap: true
                     </label>
                 </div>
                 <div class="discuss-project__bottom col-12">
-                    <div class="discuss-project__file file-upload" data-aos="fade-up">
-                      <label class="file-upload__label">
-                        <input class="visually-hidden" type="file">
-                        <span class="file-upload__icon">
-                          <svg width="16" height="16"><use xlink:href="#paper-clip"></use></svg>
-                        </span>
-                        <span class="file-upload__text">Attach a file</span>
-                      </label>
-                    </div>
                     <button class="discuss-project__send btn--theme-black btn" type="submit"
                         data-aos="fade-up">
                         <span class="btn__text">Submit</span>
