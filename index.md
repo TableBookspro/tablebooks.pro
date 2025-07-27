@@ -40,17 +40,4 @@ title: Homepage
     </div>
   </section>
   {% include the-books.html %}
-  <section class="tooltip--theme-light">
-    <div class="tooltip__container container container--size-large">
-      <div class="tooltip__section">
-        <div class="tooltip__marquee __js-marquee">
-          <div class="tooltip__list">
-            <a class="tooltip__item animsition-link" href="/books/bitcoin/">Bitcoin Coffee Table Book</a>
-            <a class="tooltip__item animsition-link" href="/books/american/">American Coffee Table Book</a>
-            <a class="tooltip__item animsition-link" href="/books/iliad/">Iliad Coffee Table Book</a>
-          </div>
-        </div>
-      </div><br><br>
-    </div>
-  </section>
 </article>
