@@ -26,7 +26,7 @@ title: Homepage
       </div> 
       Image Section -->
       <div class="col-12">
-        <img src="{{ '/assets/img/logo/table-book-logo.png' | relative_url }}" style="max-width: 100%; height: auto;"
+        <img src="{{ '/assets/img/logo/table-book-logo-new.png' | relative_url }}" style="max-width: 100%; height: auto;"
           class="img-fluid" alt="Table Book Logo">
       </div>
       <div class="row">
