@@ -6882,7 +6882,7 @@ a:hover, a:focus {
 
 @media (min-width: 992px) {
   .portfolio-section__item {
-    width: calc(33.33% - 24px);
+    width: calc(50% - 24px);
   }
   .portfolio-section__item--two-thirds {
     width: calc(66.66% - 24px);
@@ -6891,13 +6891,13 @@ a:hover, a:focus {
 
 @media (min-width: 1200px) {
   .portfolio-section__item--two-thirds {
-    width: calc(66.66% - 24px);
+    width: calc(50% - 24px);
   }
 }
 
 @media (min-width: 1400px) {
   .portfolio-section__item {
-    width: calc(33.33% - 60px);
+    width: calc(50% - 60px);
     margin-bottom: 45px;
     margin-left: 60px;
   }
