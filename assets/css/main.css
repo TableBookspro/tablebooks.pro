@@ -2639,21 +2639,21 @@ a:hover, a:focus {
 .project-preview--elastic .project-preview__title {
   max-width: 450px;
   overflow: hidden;
-  font-size: 28px;
+  font-size: 14px;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
 @media (min-width: 992px) {
   .project-preview--elastic .project-preview__title {
-    font-size: 40px;
+    font-size: 20px;
   }
 }
 
 @media (min-width: 1200px) {
   .project-preview--elastic .project-preview__title {
     max-width: 600px;
-    font-size: 40px;
+    font-size: 20px;
   }
 }
 
