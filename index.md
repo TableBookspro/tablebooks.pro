@@ -14,7 +14,7 @@ title: Homepage
 <article class="desktop-padding">
   <section class="creative-hero__container container container--size-large">
     <div class="row d-flex align-items-center col-md-4">
-      <!-- Text Section -->
+      <!-- Text Section
       <div class="col-6" data-aos="fade-right" data-aos-delay="0">
         <div class="services-section__text">
           <h2 class="creative-hero__title">
@@ -24,7 +24,7 @@ title: Homepage
           </h2>
         </div> 
       </div> 
-      <!-- Image Section -->
+      Image Section -->
       <div class="col-6">
         <img src="{{ '/assets/img/logo/table-book-logo.png' | relative_url }}" style="max-width: 100%; height: auto;"
           class="img-fluid" alt="Table Book Logo">
