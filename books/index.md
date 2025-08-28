@@ -53,22 +53,6 @@ title: Our Books
               </span>
             </a>
           </li>
-          <li class="portfolio-section__item __js_masonry-item">
-            <a class="project-preview project-preview--elastic project-preview" href="/books/sun/">
-              <span class="project-preview__image">
-                <img src="{{ '/assets/img/american/american-coffee-table-book-2.jpg' | relative_url }}" width="531"
-                  height="417" alt="SUN by D.H. Lawrence">
-              </span>
-              <span class="project-preview__bottom">
-                <span class="project-preview__title">SUN by D.H. Lawrence</span>
-                <span class="project-preview__icon">
-                  <svg width="24" height="23">
-                    <use xlink:href="#link-arrow2"></use>
-                  </svg>
-                </span>
-              </span>
-            </a>
-          </li>
         </ul>
       </section>
     </article>
