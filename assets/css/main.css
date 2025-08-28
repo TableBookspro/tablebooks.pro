@@ -2601,7 +2601,7 @@ a:hover, a:focus {
 
 .project-preview--elastic .project-preview__image {
   display: block;
-  height: 300px;
+  height: 600px;
 }
 
 .project-preview--elastic .project-preview__image img {
@@ -2614,13 +2614,13 @@ a:hover, a:focus {
 
 @media (min-width: 992px) {
   .project-preview--elastic .project-preview__image {
-    height: 250px;
+    height: 600px;
   }
 }
 
 @media (min-width: 1200px) {
   .project-preview--elastic .project-preview__image {
-    height: 296px;
+    height: 600px;
   }
 }
 
