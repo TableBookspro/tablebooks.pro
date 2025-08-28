@@ -14,46 +14,12 @@ title: Our Books
             <a class="portfolio-section__more arrow-link" href="/books/">
               <span class="arrow-link__text">View All Books</span>
               <span class="arrow-link__icon">
-                <svg width="75" height="75">
-                  <use xlink:href="#link-arrow"></use>
-                </svg>
+                <svg width="75" height="75"><use xlink:href="#link-arrow"></use></svg>
               </span>
             </a>
           </div>
         </header>
-        <ul class="portfolio-section__grid __js_portfolio-section-masonry">
-          <li class="portfolio-section__item __js_masonry-item">
-            <a class="project-preview project-preview--elastic project-preview--vertical" href="/books/american/">
-              <span class="project-preview__image">
-                <img src="{{ '/assets/img/american/american-coffee-table-book-1.png' | relative_url }}"
-                  alt="American Coffee Table Book">
-              </span>
-              <span class="project-preview__bottom">
-                <span class="project-preview__title">American Coffee Table Book</span>
-                <span class="project-preview__icon">
-                  <svg width="24" height="23">
-                    <use xlink:href="#link-arrow2"></use>
-                  </svg>
-                </span>
-              </span>
-            </a>
-          </li>
-          <li class="portfolio-section__item __js_masonry-item">
-            <a class="project-preview project-preview--elastic project-preview--vertical" href="/books/bitcoin/">
-              <span class="project-preview__image">
-                <img src="{{ '/assets/img/bitcoin/bitcoin-coffee-table-book-1.png' | relative_url }}" alt="Bitcoin Coffee Table Book">
-              </span>
-              <span class="project-preview__bottom">
-                <span class="project-preview__title">Bitcoin Coffee Table Book</span>
-                <span class="project-preview__icon">
-                  <svg width="24" height="23">
-                    <use xlink:href="#link-arrow2"></use>
-                  </svg>
-                </span>
-              </span>
-            </a>
-          </li>
-        </ul>
       </section>
+    {% include the-books.html %}
     </article>
 </main>
