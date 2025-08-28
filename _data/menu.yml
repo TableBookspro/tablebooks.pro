@@ -12,9 +12,6 @@ items:
       - name: American Coffee Table Book
         url: "/books/american"
         title: "American Coffee Table Book"
-      - name: Iliad Coffee Table Book
-        url: "/books/iliad"
-        title: "Iliad Coffee Table Book"
   - name: About
     url: "/about"
     title: "About Us"
